@@ -62,6 +62,29 @@ class Bien
      */
     private $typeBien;
 
+     /**
+     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\Image", mappedBy="Bien")
+     */
+    private $imagesBien;
+
+  
+     /**
+     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\Reservation", mappedBy="Bien")
+     */
+    private $reservation;
+
+
+     /**
+     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\BienPhotos", mappedBy="Bien")
+     */
+    private $photos;
+
+     /**
+     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\Contrat", mappedBy="Client")
+     */
+    private $contrat;
+
+
 
     /**
      * Get id

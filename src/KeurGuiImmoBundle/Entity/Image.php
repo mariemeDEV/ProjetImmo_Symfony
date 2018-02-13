@@ -5,12 +5,12 @@ namespace KeurGuiImmoBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Localite
+ * Image
  *
- * @ORM\Table(name="localite")
- * @ORM\Entity(repositoryClass="KeurGuiImmoBundle\Repository\LocaliteRepository")
+ * @ORM\Table(name="image")
+ * @ORM\Entity(repositoryClass="KeurGuiImmoBundle\Repository\ImageRepository")
  */
-class Localite
+class Image
 {
     /**
      * @var int
@@ -24,18 +24,16 @@ class Localite
     /**
      * @var string
      *
-     * @ORM\Column(name="libelleLocalite", type="string", length=100)
+     * @ORM\Column(name="image", type="blob", nullable=true)
      */
-    private $libelleLocalite;
+    private $image;
 
 
-    /**
-     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\Bien", mappedBy="Localite")
+     /**
+     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\BienPhotos", mappedBy="Image")
      */
-    private $biens;
+    private $photos;
 
-
-    
     /**
      * Get id
      *
@@ -47,27 +45,27 @@ class Localite
     }
 
     /**
-     * Set libelleLocalite
+     * Set image
      *
-     * @param string $libelleLocalite
+     * @param string $image
      *
-     * @return Localite
+     * @return Image
      */
-    public function setLibelleLocalite($libelleLocalite)
+    public function setImage($image)
     {
-        $this->libelleLocalite = $libelleLocalite;
+        $this->image = $image;
 
         return $this;
     }
 
     /**
-     * Get libelleLocalite
+     * Get image
      *
      * @return string
      */
-    public function getLibelleLocalite()
+    public function getImage()
     {
-        return $this->libelleLocalite;
+        return $this->image;
     }
     /**
      * Constructor
@@ -82,7 +80,7 @@ class Localite
      *
      * @param \KeurGuiImmoBundle\Entity\Bien $bien
      *
-     * @return Localite
+     * @return Image
      */
     public function addBien(\KeurGuiImmoBundle\Entity\Bien $bien)
     {

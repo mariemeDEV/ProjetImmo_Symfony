@@ -1,0 +1,47 @@
+<?php
+
+namespace KeurGuiImmoBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * BienPhotos
+ *
+ * @ORM\Table(name="bien_photos")
+ * @ORM\Entity(repositoryClass="KeurGuiImmoBundle\Repository\BienPhotosRepository")
+ */
+class BienPhotos
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="KeurGuiImmoBundle\Entity\Bien")
+     * @ORM\JoinColumn(name="idBien", referencedColumnName="id")
+     */
+    private $bien;
+
+      /**
+     * @ORM\ManyToOne(targetEntity="KeurGuiImmoBundle\Entity\Image")
+     * @ORM\JoinColumn(name="idImage", referencedColumnName="id")
+     */
+    private $image;
+
+
+    /**
+     * Get id
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+}
+
