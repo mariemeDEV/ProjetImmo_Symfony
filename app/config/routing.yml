@@ -6,3 +6,4 @@ keur_gui_immo:
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+

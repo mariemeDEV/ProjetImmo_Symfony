@@ -5,12 +5,12 @@ namespace KeurGuiImmoBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * typeBien
+ * TypeBien
  *
  * @ORM\Table(name="type_bien")
  * @ORM\Entity(repositoryClass="KeurGuiImmoBundle\Repository\typeBienRepository")
  */
-class typeBien
+class TypeBien
 {
     /**
      * @var int
@@ -28,9 +28,7 @@ class typeBien
      */
     private $libelleTypeBien;
 
-     /**
-     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\Bien", mappedBy="typeBien")
-     */
+
     private $biens;
 
 

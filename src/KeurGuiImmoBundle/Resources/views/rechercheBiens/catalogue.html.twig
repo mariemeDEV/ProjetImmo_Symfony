@@ -1,0 +1,110 @@
+{% extends "baseCat.html.twig" %}
+{% block body %}
+{# {{ parent() }} #}
+      <div class="container">
+        <!-- Search -->
+            <div class="quick-search">
+              <div class="row">
+                <form role="form" method="POST">
+                  <!--zone-->
+                  <div class="col-md-3">
+                    <div class="form-group">
+                      <label for="">Type de bien immobilier</label>
+                      <select class="form-control" style="width:175px" name="typebien">
+                        <option>Types</option>
+                        <!--Chargement de types de biens-->
+                        {% for typeBienObject in Types %}
+                            <option>{{ typeBienObject.libelleTypeBien  }}</option>
+                        {% endfor %}
+                      </select>
+                    </div>
+                  </div>
+                  <!--Type-->
+                  <div class="col-md-3">
+                      <div class="form-group">
+                        <label for="">Localité ciblé</label>
+                        <select class="form-control" style="width:175px" name="localitebien">
+                          <option selected="selected">Localités</option>
+                          <!--Chargement des localites dans les options-->
+                            {% for localiteObject in Localites %}
+                              <option> {{ localiteObject.libelleLocalite }} </option>
+                            {% endfor %}
+                        </select>
+                      </div>
+                    </div>
+                  <!--price-->
+                    <div class="col-md-4">
+                    <div class="form-group">
+		            <label for="">Prix demandé</label>
+			            <input type="number" class="form-control" id="email" style="width:170px">
+		            </div>
+                   </div>
+                  <!--submit-->
+                   <div class="col-md-2" style="position:relative;top:26px"><input name="submit" value="Chercher" class="btn btn-success btn-md
+                   btn-block" type="submit"></div>
+              </form>
+              </div>
+              </div>
+              </div>
+
+<div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; z-index: -999998; position: absolute; width: 1366px; height: 538px;"><img style="position: absolute; margin: 0px; padding: 0px; border: medium none; max-height: none; max-width: none; z-index: -999999; width: 1366px; height: 843.505px; left: 0px; top: -152.753px;" src=" {{ asset('catalogueTemp_fichiers/bg01.jpg')}}"></div></div>
+
+<!--Catalogue content-->
+    <div id="content">
+      <div class="container">
+
+        <!--Catalogue text-->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="heading-title">
+              <h2>Notre catalogue de biens</h2>
+            </div>
+          </div>
+        </div>
+
+        <!--Elements catalogue row1-->
+        <div class="row-lg-12">
+          <!--elements-->
+          <!--col 1-->
+          {% for bienObject in Biens %}
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="property-container">
+              <div class="property-image">
+                <img rel="icon" type="image/x-icon" src="{{ asset('catalogueTemp_fichiers/img02.jpg') }}" alt="arillo real estate theme"/>
+                <div class="property-price">
+                  <h4 id="typeBien">Type</h4>
+                  <span id="prix">{{ bienObject.prixLocation }}</span>
+                </div>
+                <div class="property-status">
+                  <input name="button" value="Résèrver" class="btn btn-success btn-sm btn-block" type="submit">
+                </div>
+              </div>
+              <div class="property-content">
+                <h3><a href="#">{{ bienObject.nomBien }}</a> <small>22, JJ Road, Yogyakarta</small></h3>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+
+        <!--Elements catalogue row2--><!--break row2-->
+
+        <!--begin pagination-->
+          <ul class="pagination">
+            <li><a href="#">PRECEDENT</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">SUIVANT</a></li>
+          </ul>
+        <!--end pagination-->
+
+        <!--Javascript inclusions-->
+          {% block javascripts %}
+            <script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script >
+            <script type="text/javascript" src="{{ asset('bootstrap/js/bootstrap.js') }}"></script >
+            <script type="text/javascript" src="{{ asset('js/keurGuiImmo.js') }}"></script >
+          {% endblock %}
+
+        <!--end block body-->
+          {% endblock %}
+     

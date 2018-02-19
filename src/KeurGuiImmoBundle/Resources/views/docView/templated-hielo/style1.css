@@ -1,0 +1,16 @@
+#propos{
+    color:blue;
+    margin-top:20px;
+    width:350px;
+}
+
+.imgInf{
+    border-radius: 50%;
+    margin-left:80px;
+    margin-top:10px;
+}
+
+infos{
+    border-radius: 50%;
+    width:400px;
+}

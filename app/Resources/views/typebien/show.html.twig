@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Typebien</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ typeBien.id }}</td>
+            </tr>
+            <tr>
+                <th>Libelletypebien</th>
+                <td>{{ typeBien.libelleTypeBien }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('typebien_index') }}">Back to the list</a>
+        </li>
+    </ul>
+{% endblock %}

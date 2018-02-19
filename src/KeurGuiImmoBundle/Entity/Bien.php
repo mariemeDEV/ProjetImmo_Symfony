@@ -45,9 +45,9 @@ class Bien
     /**
      * @var string
      *
-     * @ORM\Column(name="prixLoction", type="string", length=80)
+     * @ORM\Column(name="prixLocation", type="string", length=80)
      */
-    private $prixLoction;
+    private $prixLocation;
 
 
      /**
@@ -79,10 +79,6 @@ class Bien
      */
     private $photos;
 
-     /**
-     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\Contrat", mappedBy="Client")
-     */
-    private $contrat;
 
 
 
@@ -175,9 +171,9 @@ class Bien
      *
      * @return Bien
      */
-    public function setPrixLoction($prixLoction)
+    public function setPrixLocation($prixLocation)
     {
-        $this->prixLoction = $prixLoction;
+        $this->prixLocation = $prixLocation;
 
         return $this;
     }
@@ -187,9 +183,9 @@ class Bien
      *
      * @return string
      */
-    public function getPrixLoction()
+    public function getPrixLocation()
     {
-        return $this->prixLoction;
+        return $this->prixLocation;
     }
 
     /**
@@ -214,5 +210,25 @@ class Bien
     public function getLocalite()
     {
         return $this->Localite;
+    }
+
+    /**
+     * Get typeBien
+     *
+     * @return \KeurGuiImmoBundle\Entity\TypeBien
+     */
+    public function getTypeBien()
+    {
+        return $this->typeBien;
+    }
+
+    /**
+     * Get localite
+     *
+     * @return \KeurGuiImmoBundle\Entity\TypeBien $typeBien
+     */
+    public function setTypeBien()
+    {
+        return $this->typeBien;
     }
 }
