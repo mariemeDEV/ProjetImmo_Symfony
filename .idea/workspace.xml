@@ -2,54 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03fbc841-11b2-499f-ae98-b00e72cd4e4e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_16_02_18_09_12_s.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/rechercherBien.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/test.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.bundle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.bundle.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.bundle.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.bundle.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/catalogueTemp_fichiers/shadow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/keurGuiImmo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/style.css" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change beforePath="$PROJECT_DIR$/bin/symfony_requirements" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/DefaultController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/reservationBiens/reserverBien.html.twig" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php" />
       <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Bien.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Bien.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/typeBien.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienPhotosRepository.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienPhotosRepository.php" />
       <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienRepository.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienRepository.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/ClientRepository.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/ClientRepository.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/ContratRepository.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/ContratRepository.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/ImageRepository.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/ImageRepository.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/LocaliteRepository.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/LocaliteRepository.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/PaiementRepository.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/PaiementRepository.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/ParentBienRepository.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/ParentBienRepository.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/ProprietaireBienRepository.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/ProprietaireBienRepository.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/ProprietaireRepository.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/ProprietaireRepository.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/TypeBienRepository.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/TypeBienRepository.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/typeBienRepository.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/typeBienRepository.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/Default/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/test.html.twig" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/test.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,98 +22,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="catalogue.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig">
+      <file leaf-file-name="RechercheBiensController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="75" column="60" lean-forward="false" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
+            <state relative-caret-position="326">
+              <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
               <folding>
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="e#48#93#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TypeBienController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/TypeBienController.php">
+      <file leaf-file-name="ReserverBiensController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/ReserverBiensController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160">
+            <state relative-caret-position="198">
+              <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BienPhotosRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienPhotosRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/DefaultController.php">
+      <file leaf-file-name="catalogue.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RechercheBiensController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="26" column="65" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bien.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Bien.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="184" column="7" lean-forward="false" selection-start-line="184" selection-start-column="7" selection-end-line="184" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="baseCat.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/baseCat.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            <state relative-caret-position="1486">
+              <caret line="88" column="68" lean-forward="false" selection-start-line="88" selection-start-column="68" selection-end-line="88" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -185,14 +89,18 @@
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/TypeBien.php" />
         <option value="$PROJECT_DIR$/web/js/keurGuiImmo.js" />
         <option value="$PROJECT_DIR$/web/style.css" />
-        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/test.html.twig" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/rechercheBien.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/baseCat.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/index.html" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/index.html" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Bien.php" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienRepository.php" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/test.html.twig" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/reserverBiens/reserverBien.html.twig" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/ReserverBiensControllerController.php" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/ReserverBiensController.php" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php" />
       </list>
     </option>
@@ -245,7 +153,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="-4" />
     <option name="width" value="1344" />
     <option name="height" value="724" />
@@ -330,6 +238,13 @@
               <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="KeurGuiImmoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="KeurGuiImmoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -339,15 +254,6 @@
               <item name="KeurGuiImmoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="KeurGuiImmoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Default" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
@@ -361,32 +267,11 @@
             <path>
               <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
               <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="catalogueTemp_fichiers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="KeurGuiImmoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="reservationBiens" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -409,6 +294,7 @@
       <recent name="$PROJECT_DIR$/web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/reservationBiens" />
       <recent name="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/web/js" />
@@ -445,18 +331,18 @@
       <workItem from="1518793531753" duration="10575000" />
       <workItem from="1518852222191" duration="17000" />
       <workItem from="1518868991010" duration="28298000" />
-      <workItem from="1518976459855" duration="12594000" />
+      <workItem from="1518976459855" duration="26587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74300000" />
+    <option name="totallyTimeSpent" value="88293000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1366" height="772" extended-state="7" />
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18257576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19772728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -509,44 +395,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/baseCat.html.twig" />
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -566,14 +414,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -685,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Reservation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-370">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Localite.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -733,14 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/test.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/rechercheBien.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -757,22 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/rechercherBien.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/keurGuiImmo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -785,14 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -829,34 +631,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="75" column="60" lean-forward="false" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/ReserverBiensControllerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1227">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/reservationBiens/reserverBien.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Bien.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="184" column="7" lean-forward="false" selection-start-line="184" selection-start-column="7" selection-end-line="184" selection-end-column="7" />
+        <state relative-caret-position="126">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/rechercherBien.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/test.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Reservation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/ReserverBiensController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienPhotosRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1486">
+          <caret line="88" column="68" lean-forward="false" selection-start-line="88" selection-start-column="68" selection-end-line="88" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="326">
+          <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+          <folding>
+            <element signature="e#48#93#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

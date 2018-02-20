@@ -10,7 +10,7 @@
                   <div class="col-md-3">
                     <div class="form-group">
                       <label for="">Type de bien immobilier</label>
-                      <select class="form-control" style="width:175px" name="typebien">
+                      <select class="form-control" style="width:175px" name="typeBien">
                         <option>Types</option>
                         <!--Chargement de types de biens-->
                         {% for typeBienObject in Types %}
@@ -19,11 +19,12 @@
                       </select>
                     </div>
                   </div>
+
                   <!--Type-->
                   <div class="col-md-3">
                       <div class="form-group">
                         <label for="">Localité ciblé</label>
-                        <select class="form-control" style="width:175px" name="localitebien">
+                        <select class="form-control" style="width:175px" name="localiteBien">
                           <option selected="selected">Localités</option>
                           <!--Chargement des localites dans les options-->
                             {% for localiteObject in Localites %}
@@ -32,16 +33,19 @@
                         </select>
                       </div>
                     </div>
+
                   <!--price-->
                     <div class="col-md-4">
                     <div class="form-group">
 		            <label for="">Prix demandé</label>
-			            <input type="number" class="form-control" id="email" style="width:170px">
+			            <input type="number" class="form-control" id="email" style="width:170px" name="price">
 		            </div>
                    </div>
+
                   <!--submit-->
-                   <div class="col-md-2" style="position:relative;top:26px"><input name="submit" value="Chercher" class="btn btn-success btn-md
-                   btn-block" type="submit"></div>
+                   <div class="col-md-2" style="position:relative;top:26px">
+                     <input name="cherche" value="Chercher" class="btn btn-success btn-md btn-block" type="submit">
+                   </div>
               </form>
               </div>
               </div>
@@ -73,10 +77,12 @@
                 <img rel="icon" type="image/x-icon" src="{{ asset('catalogueTemp_fichiers/img02.jpg') }}" alt="arillo real estate theme"/>
                 <div class="property-price">
                   <h4 id="typeBien">Type</h4>
-                  <span id="prix">{{ bienObject.prixLocation }}</span>
+                  <span id="prix">{{ bienObject.prixLocation }}.Fcfa</span>
                 </div>
                 <div class="property-status">
-                  <input name="button" value="Résèrver" class="btn btn-success btn-sm btn-block" type="submit">
+                  <!--<a href="{#{ path('reserverBien', {'id':bienObject.id}) }#}" class="btn btn-success btn-sm-->
+                  btn-block">Details</a>
+                  <!--<input name="reserver" value="Résèrver" class="btn btn-success btn-sm btn-block" type="submit">-->
                 </div>
               </div>
               <div class="property-content">

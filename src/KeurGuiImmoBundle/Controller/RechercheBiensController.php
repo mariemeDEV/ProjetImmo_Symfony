@@ -12,28 +12,33 @@ class RechercheBiensController extends Controller
     /**
      * @Route("/catalogue")
      */
-        public function chercherBiensAction(){
+        public function chercherBiensAction(Request $chercherReq){
             $objectManager = $this->getDoctrine()->getManager();
 
             $localiteRep   = $objectManager->getRepository('KeurGuiImmoBundle:Localite');
             $typeBiensRep  = $objectManager->getRepository('KeurGuiImmoBundle:TypeBien');
             $biensRep      = $objectManager->getRepository('KeurGuiImmoBundle:Bien');
 
-                $localites = $localiteRep->findAll();
-                $typesBien = $typeBiensRep->findAll();
-                $biens     = $biensRep->findAll();
+            $localites = $localiteRep->findAll();
+            $typesBien = $typeBiensRep->findAll();
+            $biens     = $biensRep->findAll();
 
-            return $this->render('KeurGuiImmoBundle:rechercheBiens:catalogue.html.twig',array
-            ('Localites'=>$localites,'Types'=>$typesBien,"Biens"=>$biens));
+            if($chercherReq->ismethod('POST')){
+                $typesBien = $_POST['typeBien'];
+                $localites = $_POST['localiteBien'];
+                $prix = $_POST['price'];
+                if(isset($_POST['cherche']) && $typesBien!="" && $localites!="" && $prix>=10000){
+                echo("ok");
+                   return $this->render('KeurGuiImmoBundle:rechercheBiens:catalogue.html.twig',
+                        array("Localites"=>$localites,"Types"=>$typesBien,"Prix"=>$prix,"Biens"=>$biens));
+                }
+            }
+            return $this->render('KeurGuiImmoBundle:rechercheBiens:catalogue.html.twig',
+                array('Localites'=>$localites,'Types'=>$typesBien,"Biens"=>$biens));
         }
 
 
-        /**
-         * @Route("/rechercherBien/{id}")
-         */
-        public function rechercherBienAction(){
 
-        }
 
 
 

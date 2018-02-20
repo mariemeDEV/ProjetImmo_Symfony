@@ -10,4 +10,5 @@ namespace KeurGuiImmoBundle\Repository;
  */
 class BienRepository extends \Doctrine\ORM\EntityRepository
 {
+
 }

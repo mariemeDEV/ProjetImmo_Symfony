@@ -43,9 +43,9 @@ class Bien
     private $descriptionBien;
 
     /**
-     * @var string
+     * @var integer
      *
-     * @ORM\Column(name="prixLocation", type="string", length=80)
+     * @ORM\Column(name="prixLocation", type="integer")
      */
     private $prixLocation;
 
@@ -167,7 +167,7 @@ class Bien
     /**
      * Set prixLoction
      *
-     * @param string $prixLoction
+     * @param integer $prixLoction
      *
      * @return Bien
      */
@@ -181,7 +181,7 @@ class Bien
     /**
      * Get prixLoction
      *
-     * @return string
+     * @return integer
      */
     public function getPrixLocation()
     {
