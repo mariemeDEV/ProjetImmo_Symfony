@@ -29,7 +29,7 @@ class RechercheBiensController extends Controller
                 $prix = $_POST['price'];
                 if(isset($_POST['cherche']) && $typesBien!="" && $localites!="" && $prix>=10000){
                 echo("ok");
-                   return $this->render('KeurGuiImmoBundle:rechercheBiens:catalogue.html.twig',
+                   return $this->render('KeurGuiImmoBundle:reservationBiens:test.html.twig',
                         array("Localites"=>$localites,"Types"=>$typesBien,"Prix"=>$prix,"Biens"=>$biens));
                 }
             }

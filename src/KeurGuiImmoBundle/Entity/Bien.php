@@ -227,8 +227,30 @@ class Bien
      *
      * @return \KeurGuiImmoBundle\Entity\TypeBien $typeBien
      */
-    public function setTypeBien()
+    public function setTypeBien($typeBien)
     {
-        return $this->typeBien;
+        $this->typeBien = $typeBien;
+        return $this;
+    }
+
+    /**
+     * Get imagesBien
+     *
+     * @return \KeurGuiImmoBundle\Entity\Image
+     */
+    public function getImagesBien()
+    {
+        return $this->ImagesBien;
+    }
+
+    /**
+     * Get localite
+     *
+     * @return \KeurGuiImmoBundle\Entity\TypeBien $typeBien
+     */
+    public function setImagesBien($imagesBien)
+    {
+        $this->imagesBien = $imagesBien;
+        return $this;
     }
 }
