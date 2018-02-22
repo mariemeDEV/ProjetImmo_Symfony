@@ -62,24 +62,17 @@ class Bien
      */
     private $typeBien;
 
+
      /**
-     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\Image", mappedBy="Bien")
+     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\Image", mappedBy="bien")
      */
     private $imagesBien;
 
   
      /**
-     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\Reservation", mappedBy="Bien")
+     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\Reservation", mappedBy="bien")
      */
     private $reservation;
-
-
-     /**
-     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\BienPhotos", mappedBy="Bien")
-     */
-    private $photos;
-
-
 
 
     /**
@@ -195,9 +188,9 @@ class Bien
      *
      * @return Bien
      */
-    public function setLocalite(\KeurGuiImmoBundle\Entity\Localite $localite = null)
+    public function setLocalite($localite)
     {
-        $this->Localite = $localite;
+        $this->localite = $localite;
 
         return $this;
     }
@@ -209,7 +202,7 @@ class Bien
      */
     public function getLocalite()
     {
-        return $this->Localite;
+        return $this->localite;
     }
 
     /**
@@ -233,24 +226,32 @@ class Bien
         return $this;
     }
 
-    /**
-     * Get imagesBien
-     *
-     * @return \KeurGuiImmoBundle\Entity\Image
-     */
-    public function getImagesBien()
+    public function __construct()
     {
-        return $this->ImagesBien;
+        //par defaut l'attribut images est une collection d'objets
+        $this->imagesBien = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
     /**
-     * Get localite
+     * setImagesBien
      *
-     * @return \KeurGuiImmoBundle\Entity\TypeBien $typeBien
+     * @param /keur_gui_immo/KeurGuiImmoBundle/Entity/Image $imagesBien
+     *
+     * @return Bien
      */
     public function setImagesBien($imagesBien)
     {
-        $this->imagesBien = $imagesBien;
+        $this->imagesBien[] = $imagesBien;
         return $this;
     }
+
+    /**
+     * getImageBien
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+     public function getImagesBien(){
+         return $this->imagesBien;
+     }
+
 }

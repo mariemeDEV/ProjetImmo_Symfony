@@ -1,11 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php" description="}" line="46" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="03fbc841-11b2-499f-ae98-b00e72cd4e4e" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/listes/listeBiens.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/listes/listeReservations.html.twig" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/ReserverBiensController.php" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Bien.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Bien.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/test.html.twig" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/reservationBiens/test.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Image.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Image.php" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienRepository.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienRepository.php" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/CREDITS.txt" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/CREDITS.txt" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/LICENSE.txt" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/LICENSE.txt" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/css/font-awesome.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/css/main.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/js/jquery.min.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/js/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/js/jquery.scrollex.min.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/js/jquery.scrollex.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/js/main.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/js/skel.min.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/js/skel.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/js/util.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/assets/js/util.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/biens.html.twig" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/biens.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-grid.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-grid.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-grid.css.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-grid.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-grid.min.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-grid.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-grid.min.css.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-grid.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-reboot.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-reboot.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-reboot.css.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-reboot.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-reboot.min.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-reboot.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-reboot.min.css.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap-reboot.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.bundle.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.bundle.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.bundle.js.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.bundle.js.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.bundle.min.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.bundle.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.bundle.min.js.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.bundle.min.js.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.js.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.js.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.min.js.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/bootstrap.min.js.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/jquery.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/jquery.min.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/bootstrap/js/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogue.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogue.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/bg01.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/bg01.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/bootstrap.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/bootstrap.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/common.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/common.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/css.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/css.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/font-awesome.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/font-awesome.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/gmap3.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/gmap3.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/imagesloaded.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/imagesloaded.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img01.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img01.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img02.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img02.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img03.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img03.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img04.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img04.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img05.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img05.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img06.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img06.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img07.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img07.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img08.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img08.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img09.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img09.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img10.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/img10.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/jquery.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/jquery_002.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/jquery_002.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/jquery_003.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/jquery_003.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/jquery_004.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/jquery_004.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/jquery_005.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/jquery_005.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/masonry.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/masonry.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/responsive.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/responsive.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/script.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/script.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/stats.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/stats.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/style.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/style.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/util.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/catalogueTemp_fichiers/util.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/elements.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/elements.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/form.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/form.php" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/formulaire.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/formulaire.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/generic.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/generic.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/1.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/1.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/2.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/2.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/3.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/3.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/5.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/5.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_002.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_002.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_002.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_002.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_003.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_003.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_003.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_003.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_004.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_004.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_004.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_004.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_005.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_005.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_006.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/cached_006.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/jquery.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/notes-add2x.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/notes-add2x.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/php-logo.svg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/php-logo.svg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/to-top2x.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/API_PHP_fichiers/to-top2x.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_002.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_002.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_002.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_002.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_003.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_003.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_003.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_003.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_004.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_004.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_004.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_004.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_005.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_005.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_006.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/cached_006.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/jquery.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/notes-add2x.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/notes-add2x.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/php-logo.svg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/php-logo.svg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/to-top2x.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/PDO_documentation_fichiers/to-top2x.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/bg.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/bg.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/chevron.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/chevron.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/hr.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/hr.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/iml.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/iml.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/imt.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/imt.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/logo.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/logo.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/maison.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/maison.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/personnel.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/personnel.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/pic01.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/pic01.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/pic02.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/pic02.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/pic03.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/pic03.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/pic04.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/pic04.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/planning.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/planning.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/planning.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/planning.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/slide01.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/slide01.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/slide02.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/slide02.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/slide03.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/slide03.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/slide04.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/slide04.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/slide05.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/images/slide05.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/index.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/maquettes/historic.1.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/maquettes/historic.1.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/maquettes/maxresdefault.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/maquettes/maxresdefault.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/menu.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/menu.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/products.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/products.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/style.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/style.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/style1.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/style1.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/CREDITS.txt" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/CREDITS.txt" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/LICENSE.txt" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/LICENSE.txt" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/css/font-awesome.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/css/main.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/js/jquery.min.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/js/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/js/jquery.scrollex.min.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/js/jquery.scrollex.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/js/main.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/js/skel.min.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/js/skel.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/js/util.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/assets/js/util.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-grid.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-grid.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-grid.css.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-grid.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-grid.min.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-grid.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-grid.min.css.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-grid.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-reboot.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-reboot.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-reboot.css.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-reboot.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-reboot.min.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-reboot.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-reboot.min.css.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap-reboot.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.bundle.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.bundle.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.bundle.js.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.bundle.js.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.bundle.min.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.bundle.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.bundle.min.js.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.bundle.min.js.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.js.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.js.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.min.js.map" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/bootstrap.min.js.map" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/jquery.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/jquery.min.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/bootstrap/js/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/elements.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/elements.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/generic.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/generic.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/1.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/1.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/2.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/2.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/3.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/3.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/5.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/5.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_002.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_002.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_002.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_002.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_003.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_003.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_003.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_003.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_004.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_004.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_004.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_004.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_005.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_005.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_006.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/cached_006.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/jquery.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/notes-add2x.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/notes-add2x.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/php-logo.svg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/php-logo.svg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/to-top2x.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/API_PHP_fichiers/to-top2x.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_002.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_002.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_002.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_002.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_003.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_003.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_003.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_003.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_004.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_004.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_004.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_004.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_005.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_005.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_006.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/cached_006.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/jquery.js" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/notes-add2x.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/notes-add2x.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/php-logo.svg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/php-logo.svg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/to-top2x.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/PDO_documentation_fichiers/to-top2x.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/bg.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/bg.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/chevron.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/chevron.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/hr.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/hr.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/iml.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/iml.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/imt.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/imt.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/logo.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/logo.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/maison.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/maison.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/personnel.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/personnel.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/pic01.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/pic01.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/pic02.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/pic02.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/pic03.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/pic03.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/pic04.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/pic04.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/planning.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/planning.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/planning.png" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/planning.png" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/slide01.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/slide01.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/slide02.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/slide02.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/slide03.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/slide03.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/slide04.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/slide04.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/slide05.jpg" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/images/slide05.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/index.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/menu.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/menu.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/products.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/products.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/style.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/style.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/style1.css" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/templated-hielo/style1.css" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/twig/menu.html.twig" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/docView/twig/menu.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/form.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/form.php" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/rechercherBien.html.twig" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/rechercherBien.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/reservationBiens/reserverBien.html.twig" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/reservationBiens/reserverBien.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/reservationBiens/test.html.twig" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/reservationBiens/test.html.twig" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css.map" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.min.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.min.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css.map" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.min.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.min.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.bundle.js" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.bundle.js" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.bundle.js.map" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.bundle.js.map" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.bundle.min.js" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.bundle.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.bundle.min.js.map" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.bundle.min.js.map" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js.map" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js.map" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.min.js.map" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.min.js.map" />
+      <change beforePath="$PROJECT_DIR$/web/js/keurGuiImmo.js" afterPath="$PROJECT_DIR$/web/js/keurGuiImmo.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,56 +282,92 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RechercheBiensController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RechercheBiensController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="e#48#93#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/reservationBiens/test.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="462">
+              <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BienRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="catalogue.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="catalogue.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+            <state relative-caret-position="358">
+              <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bien.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Bien.php">
+      <file leaf-file-name="listeReservations.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/listes/listeReservations.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="252" column="40" lean-forward="false" selection-start-line="252" selection-start-column="40" selection-end-line="252" selection-end-column="40" />
+            <state relative-caret-position="227">
+              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listeBiens.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/listes/listeBiens.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keurGuiImmo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/keurGuiImmo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeBienController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/TypeBienController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/Details/details.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8">
+              <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+              <folding>
+                <element signature="e#1455#1478#0#HTML" expanded="true" />
+                <element signature="e#1727#1764#0#HTML" expanded="true" />
+                <element signature="e#2057#2080#0#HTML" expanded="true" />
+                <element signature="e#3061#3106#0#HTML" expanded="true" />
+                <element signature="e#3260#3280#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,22 +395,30 @@
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/twig/catalogue.html.twig" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/baseCat.html.twig" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/TypeBien.php" />
-        <option value="$PROJECT_DIR$/web/js/keurGuiImmo.js" />
         <option value="$PROJECT_DIR$/web/style.css" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/rechercheBien.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/baseCat.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/index.html" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/index.html" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienRepository.php" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/test.html.twig" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/reserverBiens/reserverBien.html.twig" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/ReserverBiensControllerController.php" />
-        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/ReserverBiensController.php" />
-        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig" />
-        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/reservationBiens/test.html.twig" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/BienPhotos.php" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Image.php" />
         <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Bien.php" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/ReserverBiensController.php" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Form/ClientType.php" />
+        <option value="$PROJECT_DIR$/web/css/datatables.css" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienRepository.php" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/Details/details.html.twig" />
+        <option value="$PROJECT_DIR$/web/js/keurGuiImmo.js" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/listes/listeReservations.html.twig" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/listes/listeBiens.html.twig" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html" />
+        <option value="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig" />
       </list>
     </option>
   </component>
@@ -161,10 +470,10 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="-4" />
-    <option name="width" value="1344" />
-    <option name="height" value="724" />
+    <option name="width" value="1366" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -238,6 +547,13 @@
               <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="KeurGuiImmoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="KeurGuiImmoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -262,7 +578,57 @@
               <item name="KeurGuiImmoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Details" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="KeurGuiImmoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="listes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="KeurGuiImmoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="rechercheBiens" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="KeurGuiImmoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="reservationBiens" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="keur_gui_immo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keur_gui_immo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -322,23 +688,28 @@
       <workItem from="1518793531753" duration="10575000" />
       <workItem from="1518852222191" duration="17000" />
       <workItem from="1518868991010" duration="28298000" />
-      <workItem from="1518976459855" duration="28193000" />
+      <workItem from="1518976459855" duration="35911000" />
+      <workItem from="1519145507955" duration="7907000" />
+      <workItem from="1519182977992" duration="4797000" />
+      <workItem from="1519199655569" duration="898000" />
+      <workItem from="1519203631186" duration="2113000" />
+      <workItem from="1519214705549" duration="2471000" />
+      <workItem from="1519222715716" duration="38148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89899000" />
+    <option name="totallyTimeSpent" value="153951000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1366" height="772" extended-state="7" />
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19772728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18257576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -351,6 +722,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1936937" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -364,11 +736,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18257576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15530303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -382,86 +754,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Contrat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="102" column="29" lean-forward="false" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/baseCat.html.twig" />
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/KeurGuiImmoBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Bien.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/typeBien.php" />
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -502,22 +800,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/baseCat.html.twig" />
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Localite.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Contrat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
@@ -531,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -539,7 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -551,35 +831,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/rechercheBien.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/rechercheBien.html.twig" />
     <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/TypeBien.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-533">
           <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/keurGuiImmo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/baseCat.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="26" column="65" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,34 +861,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/TypeBienController.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
+        <state relative-caret-position="90">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/ReserverBiensControllerController.php" />
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/rechercherBien.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienPhotosRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Tests/Controller/rechercheBiensControllerControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Reservation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/embed.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/BienPhotos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/ReserverBiensController.php" />
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="98" column="6" lean-forward="false" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/baseCat.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="16" column="73" lean-forward="false" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/datatables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="0" column="12089" lean-forward="false" selection-start-line="0" selection-start-column="12089" selection-end-line="0" selection-end-column="12089" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="343" column="16" lean-forward="false" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Form/ClientType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Localite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Bien.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-757">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/datatables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/TypeBienController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/ReserverBiensControllerController.php">
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/Details/details.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="8">
+          <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+          <folding>
+            <element signature="e#1455#1478#0#HTML" expanded="true" />
+            <element signature="e#1727#1764#0#HTML" expanded="true" />
+            <element signature="e#2057#2080#0#HTML" expanded="true" />
+            <element signature="e#3061#3106#0#HTML" expanded="true" />
+            <element signature="e#3260#3280#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html">
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/reservationBiens/test.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1227">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="36">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -647,7 +1042,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/rechercherBien.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/Details/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -655,77 +1050,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Reservation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/ReserverBiensController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienPhotosRepository.php">
+    <entry file="file://$PROJECT_DIR$/web/js/keurGuiImmo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/reservationBiens/test.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/listes/listeReservations.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Repository/BienRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Tests/Controller/rechercheBiensControllerControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Bien.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="252" column="40" lean-forward="false" selection-start-line="252" selection-start-column="40" selection-end-line="252" selection-end-column="40" />
+        <state relative-caret-position="227">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#93#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="462">
+          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1038">
+          <caret line="35" column="68" lean-forward="false" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/listes/listeBiens.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

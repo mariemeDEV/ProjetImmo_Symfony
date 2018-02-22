@@ -1,0 +1,39 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+            {% block head %}
+
+                {% block stylesheets %}
+                    <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.css') }}" type="text/css">
+                    <link rel="stylesheet" href="{{ asset('css/datatables.css') }}" type="text/css">
+                {% endblock %}
+            {% endblock %}
+    <div class="container">
+        <table class="table table-light table-striped table-bordered" id="tableBiens">
+            <thead class="bg-dark">
+            <tr style="color:white">
+                <th scope="col">Id Bien</th>
+                <th scope="col">Nom Bien</th>
+                <th scope="col">Description</th>
+                <th scope="col" colspan="2">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for bien in listeBiens %}
+                <tr>
+                    <td>{{ bien.id }}</td>
+                    <td>{{ bien.nomBien }}</td>
+                    <td>{{ bien.descriptionBien }}</td>
+                    <td><input name="" value="Détails" class="btn btn-success btn-sm btn-block" type="submit"></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+            {% block javascripts %}
+                <script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script>
+                <script type="text/javascript" src="{{ asset('js/datatables.js') }}"></script>
+                <script type="text/javascript" src="{{ asset('bootstrap/js/bootstrap.js') }}"></script>
+                <script type="text/javascript" src="{{ asset('js/keurGuiImmo.js') }}"></script>
+            {% endblock %}
+{% endblock %}

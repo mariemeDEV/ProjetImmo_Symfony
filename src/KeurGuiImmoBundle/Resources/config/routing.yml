@@ -1,0 +1,5 @@
+reserverBien:
+    path:     /reservationBiens/reserverBien
+    defaults: { _controller: KeurGuiImmoBundle:RechercherBien:reserverBien }
+    requirements:
+        id: \d+

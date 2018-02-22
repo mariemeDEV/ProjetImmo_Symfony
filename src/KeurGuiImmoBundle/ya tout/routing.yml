@@ -1,0 +1,9 @@
+keur_gui_immo_homepage:
+    path:     /
+    defaults: { _controller: KeurGuiImmoBundle:Default:index }
+
+add:
+    path:     /client/add
+    defaults: { _controller: KeurGuiImmoBundle:chercheController:add }    
+
+

@@ -14,7 +14,7 @@
                         <option>Types</option>
                         <!--Chargement de types de biens-->
                         {% for typeBienObject in Types %}
-                            <option>{{ typeBienObject.libelleTypeBien  }}</option>
+                            <option value="{{ typeBienObject.id}}">{{ typeBienObject.libelleTypeBien  }}</option>
                         {% endfor %}
                       </select>
                     </div>
@@ -28,7 +28,7 @@
                           <option selected="selected">Localités</option>
                           <!--Chargement des localites dans les options-->
                             {% for localiteObject in Localites %}
-                              <option> {{ localiteObject.libelleLocalite }} </option>
+                              <option value="{{ localiteObject.id}}"> {{ localiteObject.libelleLocalite }} </option>
                             {% endfor %}
                         </select>
                       </div>
@@ -74,19 +74,18 @@
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="property-container">
               <div class="property-image">
-                <img rel="icon" type="image/x-icon" src="{{ asset('catalogueTemp_fichiers/img02.jpg') }}" alt="arillo real estate theme"/>
+                <img rel="icon" type="image/x-icon" src="{{ asset('images/3.jpg')}}"/>
                 <div class="property-price">
                   <h4 id="typeBien">Type</h4>
                   <span id="prix">{{ bienObject.prixLocation }}.Fcfa</span>
                 </div>
                 <div class="property-status">
-                  <!--<a href="{#{ path('reserverBien', {'id':bienObject.id}) }#}" class="btn btn-success btn-sm-->
-                  btn-block">Details</a>
-                  <!--<input name="reserver" value="Résèrver" class="btn btn-success btn-sm btn-block" type="submit">-->
+                  <a class="btn btn-success btn-md btn-block" name="details">Résèrver</a>
                 </div>
               </div>
               <div class="property-content">
-                <h3><a href="#">{{ bienObject.nomBien }}</a> <small>22, JJ Road, Yogyakarta</small></h3>
+                <h3><a href="{{path('listeBiens',{'id':bienObject.id})}}">{{ bienObject.nomBien }}</a><small>22, JJ
+                    Road, Yogyakarta</small></h3>
               </div>
             </div>
           </div>

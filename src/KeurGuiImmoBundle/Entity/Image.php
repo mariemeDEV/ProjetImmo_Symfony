@@ -24,13 +24,17 @@ class Image
     /**
      * @var string
      *
-     * @ORM\Column(name="image", type="blob", nullable=true)
+     * @ORM\Column(name="image", type="string", nullable=true)
      */
     private $image;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="KeurGuiImmoBundle\Entity\Bien", inversedBy="image")
+     */
+    private $bien;
 
      /**
-     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\BienPhotos", mappedBy="Image")
+     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\BienPhotos", mappedBy="image")
      */
     private $photos;
 
@@ -67,45 +71,57 @@ class Image
     {
         return $this->image;
     }
-    /**
-     * Constructor
-     */
-    public function __construct()
-    {
-        $this->biens = new \Doctrine\Common\Collections\ArrayCollection();
-    }
+
 
     /**
-     * Add bien
+     * set bien
      *
-     * @param \KeurGuiImmoBundle\Entity\Bien $bien
+     * @param keur_gui_immo/KeurGuiImmoBundle/Entity/Bien
      *
      * @return Image
      */
-    public function addBien(\KeurGuiImmoBundle\Entity\Bien $bien)
+    public function setBien($bien)
     {
-        $this->biens[] = $bien;
-
+        $this->bien = $bien;
         return $this;
     }
 
     /**
-     * Remove bien
      *
-     * @param \KeurGuiImmoBundle\Entity\Bien $bien
+     * get bien
+     *
+     * @return Bien
      */
-    public function removeBien(\KeurGuiImmoBundle\Entity\Bien $bien)
+    public function getBien()
     {
-        $this->biens->removeElement($bien);
+        return $this->bien;
+    }
+
+
+    /**
+     * set photos
+     *
+     * @param keur_gui_immo/KeurGuiImmoBundle/Entity/BienPhotos
+     *
+     * @return Image
+     */
+    public function setPhotos($photos)
+    {
+        $this->bien = $photos;
+        return $this;
     }
 
     /**
-     * Get biens
      *
-     * @return \Doctrine\Common\Collections\Collection
+     * get photos
+     *
+     * @return BienPhotos
      */
-    public function getBiens()
+    public function getPhotos()
     {
-        return $this->biens;
+        return $this->photos;
     }
+
 }
+
+
