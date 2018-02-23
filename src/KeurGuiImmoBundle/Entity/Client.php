@@ -57,6 +57,13 @@ class Client
     private $email;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="motDePasse", type="string", length=30, unique=true)
+     */
+    private $motDePasse;
+
+    /**
      * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\Reservation", mappedBy="Client")
      */
     private $reservationClient;
@@ -195,6 +202,30 @@ class Client
     public function getEmail()
     {
         return $this->email;
+    }
+
+    /**
+     * Set motDePasse
+     *
+     * @param string $motDePasse
+     *
+     * @return Client
+     */
+    public function setmotDePasse($motDePasse)
+    {
+        $this->email = $motDePasse;
+
+        return $this;
+    }
+
+    /**
+     * Get motDePasse
+     *
+     * @return string
+     */
+    public function getmotDePasse()
+    {
+        return $this->motDePasse;
     }
 }
 

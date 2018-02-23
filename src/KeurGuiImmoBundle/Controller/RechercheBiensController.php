@@ -7,6 +7,11 @@ use KeurGuiImmoBundle\KeurGuiImmoBundle;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
+use Symfony\Component\Form\AbstractType;
+use KeurGuiImmoBundle\Entity\Client;
+use KeurGuiImmoBundle\Entity\Reservation;
+use KeurGuiImmoBundle\Form\ClientType;
+
 class RechercheBiensController extends Controller
 {
     /**
@@ -36,14 +41,44 @@ class RechercheBiensController extends Controller
         }
 
     /**
-     * @Route("/reservationBiens/reserverBien")
+     * @Route("/reservationBiens/reserverBien/{id}",name="reserverBien")
      */
-    public function reserverBienAction(Request $reserverReq){
-       /* $reserv = $this
+    public function reserverBienAction(Request $reserverReq,$id){
+      $bienChosen = $this
             ->getDoctrine()
             ->getManager()
-            ->getRepository("KeurGuiImmoBundle:Reservation")->findAll();*/
-        return $this->render("KeurGuiImmoBundle:Details:details.html.twig");
+            ->getRepository("KeurGuiImmoBundle:Bien")->find($id);
+
+      $reservataire = new Client();
+      $reservation = new Reservation();
+
+      $formReservationBien = $this->createForm(ClientType::class,$reservataire);
+      $em = $this->getDoctrine()->getManager();
+
+      //Si le client existe deja,on établit sa connexion et on enregistre une novelle résérvation pour lui
+      if($reserverReq->ismethod("POST")) {
+          if (isset($_POST["connexion"])) {
+
+          }
+      }
+      //Sinon on lui crée dabodr un compte avant d'enregistrer sa résérvation
+      else{
+          $formReservationBien->handleRequest($reserverReq);
+              if($formReservationBien->isvalid()){
+                  $em->persist($reservataire);
+                  $reservation
+                      ->setClient($reservataire)
+                      ->setBien($bienChosen)
+                      ->setEtat(0)
+                      ->setDateReservation(new \DateTime());
+                  $em->persist($reservation);
+                  $em->flush();
+              }
+
+          }
+
+        return $this->render("KeurGuiImmoBundle:Details:details.html.twig",
+            array("bienChoisi"=>$bienChosen,"formulaireReservation"=>$formReservationBien->createView()));
     }
 
 
@@ -62,8 +97,10 @@ class RechercheBiensController extends Controller
      *
      */
     public function listeReservationsAction(){
-       /* $listeReservRep = $this->getDoctrine()->getManager()->getRepository('KeurGuiImmoBundle:Reservation');
-        $listeReserv = $listeReservRep->findAll();*/
-        return $this->render('KeurGuiImmoBundle:listes:listeReservations.html.twig');
+        $listeReservRep = $this->getDoctrine()->getManager()->getRepository('KeurGuiImmoBundle:Reservation');
+        $listeReserv = $listeReservRep->findAll();
+        return $this->render('KeurGuiImmoBundle:listes:listeReservations.html.twig'
+            ,array($listeReserv));
     }
+
 }

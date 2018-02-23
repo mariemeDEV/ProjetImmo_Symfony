@@ -1,49 +1,31 @@
-{% extends '::base.html.twig' %}
-{% block body %}
-    {% block head %}
+{% extends '::baseListes.html.twig' %}
 
-        {% block stylesheets %}
-            <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.css') }}" type="text/css">
-            <link rel="stylesheet" href="{{ asset('css/datatables.css') }}" type="text/css">
-        {% endblock %}
-
+    {% block nav %}
+        <a href="#" style="font-size:10px">Bien</a>
+        <a href="#" style="font-size:10px" >Localité</a>
+        <a href="#"style="font-size:10px">Type</a>
     {% endblock %}
-    <div class="container">
-        <table class="table table-light table-striped table-bordered" id="tableReserv">
-            <thead class="bg-dark">
-            <tr style="color:white">
-                <th scope="col">Nom Client</th>
-                <th scope="col">Adresse Client</th>
-                <th scope="col">Bien</th>
-                <th scope="col">Adresse Bien</th>
-                <th scope="col">Type Bien</th>
-                <th scope="col">Prix</th>
-                <th scope="col">Action</th>
-                <th scope="col">Image</th>
-            </tr>
-            </thead>
-            <tbody>
 
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
+    {% block headContent %}
 
-            </tbody>
-        </table>
-    </div>
-
-
-    {% block javascripts %}
-        <script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('js/datatables.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('bootstrap/js/bootstrap.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('js/keurGuiImmo.js') }}"></script>
+        <tr style="background-color: black;color:white">
+            <th>Nom Bien</th>
+            <th>Nom Client</th>
+            <th>Date Reservation</th>
+            <th>etat Reservation</th>
+        </tr>
     {% endblock %}
-{% endblock %}
+
+    {% block bodyContent %}
+    {% for $reservationObject in $listeReserv %}
+        <tr>
+            <td>{{ $reservationObject.bien.nomBien }}</td>
+            <td>{{ $reservationObject.client.nomClient }}</td>
+            <td>{{ $reservationObject.dateReservation }}</td>
+            <td>{{ $reservationObject.etat}}</td>
+
+
+        </tr>
+        {% endfor %}
+    {% endblock %}
+

@@ -1,0 +1,81 @@
+<html>
+{% block html %}
+
+    {% block head %}
+        <head>
+        <title>{% block title %} Menu {% endblock %}</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <meta name="description" content="arillo is responsive html real estate theme">
+        <meta name="author" content="afriq yasin ramadhan">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        {# block des feuilles de style #}
+       {% block stylesheets %}
+            <link rel="stylesheet" href="{{ asset('catalogueTemp_fichiers/bootstrap.css') }}" type="text/css">
+            <link rel="stylesheet" href="{{ asset('css/datatables.css') }}" type="text/css">
+            <link rel="stylesheet" href="{{ asset('catalogueTemp_fichiers/font-awesome.css') }}" type="text/css">
+            <link rel="stylesheet" href="{{ asset('catalogueTemp_fichiers/style.css') }}" type="text/css">
+            <link rel="stylesheet" href="{{ asset('catalogueTemp_fichiers/responsive.css') }}" type="text/css">
+            <link rel="stylesheet" href="{{ asset('catalogueTemp_fichiers/css.css') }}" type="text/css">
+            <link rel="stylesheet" href="{{ asset('style.css') }}" type="text/css">
+        {% endblock %}
+
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+    </head>
+   {% endblock %}
+
+    {% block body %}
+        <body style="font-family: 'Times New Roman';font-size: 16px">
+
+            {#block navigation#}
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    {% block nav %}{% endblock %}
+                </div>
+                <div id="main">
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+                </div>
+
+            {#fin block table#}
+
+            {#block table#}
+                <div class="container" style="position:absolute;right:0px;top:87px">
+                    <table class="table table-light table-striped table-bordered" id="table">
+                            <thead class="bg-dark">
+                                {% block headContent %}{% endblock %}
+                            </thead>
+
+                            <tbody>
+                                {% block bodyContent %}{% endblock %}
+                            </tbody>
+                    </table>
+                </div>
+
+           {#fin block table#}
+
+            {#debut block js#}
+            {% block javascripts %}
+
+                <script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script>
+                <script type="text/javascript" src="{{ asset('js/datatables.js') }}"></script>
+                <script type="text/javascript" src="{{ asset('js/keurGuiImmo.js') }}"></script>
+
+                <script type="text/javascript" src="{{ asset('bootstrap/js/bootstrap.js') }}"></script>
+                <script type="text/javascript" src="{{ asset('script.js') }}"></script>
+
+            {% endblock %}
+            {#fin block js#}
+
+        </body>
+        {#fin block body#}
+    {% endblock %}
+
+</html>
+{% endblock %}
+
+

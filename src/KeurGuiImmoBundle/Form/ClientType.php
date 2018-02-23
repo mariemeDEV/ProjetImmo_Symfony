@@ -18,7 +18,8 @@ class ClientType extends AbstractType
             ->add('nomComplet')
             ->add('telephone')
             ->add('adresse')
-            ->add('email');
+            ->add('email')
+            ->add('motDePasse');
     }
     
     /**

@@ -7,10 +7,9 @@ $(document).ready(function() {
         intervalDuration : 4000
     });
 
-   $('#clientConn').on("click",function(){
-	alert("ok");
-	/*$("#inscription").hide();
-        $("#connexion").show();*/
-   });
-    
+    $("#clientConn").on("click",function(){
+        $("#formConn").show();
+        $("#formIns").hide();
+    });
 });
+

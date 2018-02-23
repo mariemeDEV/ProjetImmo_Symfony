@@ -43,10 +43,10 @@
     </div>
 
     <div class="row" style="position:absolute;right:100px">
-        <div class="col">
+        <div class="col" id="formConn">
             <div class="btn btn-sm btn-success" id="clientConn">Connexion</div>
         </div>
-        <div class="col">
+        <div class="col" id="formIns">
             <div class="btn btn-sm btn-success" id="clientIns">Nouveau compte</div>
         </div>
     </div>
@@ -59,17 +59,17 @@
                 <div class="card">
                     <div class="card-header nom">
                         <h6>Nom du bien :</h6>
-                        <p></p>
+                        <p>{{ bienChoisi.nomBien }}</p>
                     </div>
                     <div class="card-body desc loc">
                         <h6>Description du bien :</h6>
                         <p></p>
                         <h6>Quartier :</h6>
-                        <p></p>
+                        <p>{{ bienChoisi.localite.libelleLocalite }}</p>
                     </div>
                     <div class="card-footer prix">
                         <h6>Prix de location :</h6>
-                        <p></p>
+                        <p>{{ bienChoisi.prixLocation }}</p>
                     </div>
                 </div>
             </div>
@@ -81,45 +81,30 @@
             <div class="col-md-6" style="position:absolute;top:685px;right:3px">
                 <div class="card">
                     <div class="card-body">
-                        <form role="form" id="inscription" method="POST" style="display:none">
-                            <div class="form-group">
-                                <label for="usrname"><span class=""></span> Prenom</label>
-                                <input type="text" class="form-control" id="usrname" placeholder="Entez votre prenom">
-                            </div>
-                            <div class="form-group">
-                                <label for="usrname"><span class=""></span>Nom</label>
-                                <input type="text" class="form-control" id="usrname" placeholder="Entez votre nom">
-                            </div>
-                            <div class="form-group">
-                                <label for="psw"><span class=""></span> Login</label>
-                                <input type="text" class="form-control" id="psw" placeholder="Entez votre numero ">
-                            </div>
-                            <div class="form-group">
-                                <label for="psw"><span class=""></span> Mot de passe</label>
-                                <input type="text" class="form-control" id="psw" placeholder="Entez votre numero ">
-                            </div>
-                            <div class="form-group">
-                                <label for="psw"><span class=""></span> Confirmer mot de passe</label>
-                                <input type="text" class="form-control" id="psw" placeholder="Entez votre numero ">
-                            </div>
-                            <div class="form-group">
-                                <label for="psw"><span class=""></span> Telephone</label>
-                                <input type="text" class="form-control" id="psw" placeholder="Entez votre numero ">
-                            </div>
-                            <div class="form-group">
-                                <label for="psw"><span class=""></span> Adresse</label>
-                                <input type="text" class="form-control" id="psw" placeholder="Entez votre adresse">
-                            </div>
-                            <div class="form-group">
-                                <label for="psw"><span class=""></span> Email</label>
-                                <input type="text" class="form-control" id="psw" placeholder="Entez votre email">
-                            </div>
-                            <button type="submit" class="btn btn-success"><span class=""></span> Enregistrer</button>
-                            <button type="submit" class="btn btn-danger"><span class=""></span> Annuler</button>
-                        </form>
+                        {{ form_start(formulaireReservation) }}
+                            {{form_label(formulaireReservation.numPiece)}}
+                            {{form_widget(formulaireReservation.numPiece, {"attr": {"class": "form-control"}})}}
+
+                            {{form_label(formulaireReservation.nomComplet)}}
+                            {{form_widget(formulaireReservation.nomComplet, {"attr": {"class": "form-control"}})}}
+
+                            {{form_label(formulaireReservation.telephone)}}
+                            {{form_widget(formulaireReservation.telephone, {"attr": {"class": "form-control"}})}}
+
+                            {{form_label(formulaireReservation.adresse)}}
+                            {{form_widget(formulaireReservation.adresse, {"attr": {"class": "form-control"}})}}
+
+                            {{form_label(formulaireReservation.email)}}
+                            {{form_widget(formulaireReservation.email, {"attr": {"class": "form-control"}})}}
+
+                            {{form_label(formulaireReservation.motDePasse)}}
+                            {{form_widget(formulaireReservation.motDePasse, {"attr": {"class": "form-control"}})}}
+
+                            <input type="submit" value="Reserver" class="form-control btn-primary">
+                        {{form_end(formulaireReservation)}}
 
                         <!--Formulaire de connexion-->
-                        <form role="form" id="connexion" methode="POST">
+                        <form role="form" id="connexion" method="POST">
                             <div class="form-group">
                                 <label for="log"><span class=""></span> Login</label>
                                 <input type="text" class="form-control" id="login" placeholder="Login">
@@ -128,8 +113,9 @@
                                 <label for="pw"><span class=""></span>Mot de passe</label>
                                 <input type="text" class="form-control" id="pw" placeholder="Mot de passe">
                             </div>
-                            <button type="submit" class="btn btn-success"><span class=""></span>Connexion</button>
-                            <button type="submit" class="btn btn-danger"><span class=""></span> Annuler</button>
+                            <button type="submit" class="btn btn-success" name="connexion"><span
+                                        class=""></span>Connexion</button>
+                            <button type="reset" class="btn btn-danger"><span class=""></span> Annuler</button>
                         </form>
 
                     </div>

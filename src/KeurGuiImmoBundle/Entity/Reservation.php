@@ -24,14 +24,14 @@ class Reservation
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="dateReservation", type="datetime")
+     * @ORM\Column(name="dateReservation", type="string")
      */
     private $dateReservation;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="etat", type="string", length=20)
+     * @ORM\Column(name="etatReservation", type="string", length=20)
      */
     private $etat;
 

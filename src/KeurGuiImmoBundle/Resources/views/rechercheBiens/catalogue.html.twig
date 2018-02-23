@@ -80,12 +80,12 @@
                   <span id="prix">{{ bienObject.prixLocation }}.Fcfa</span>
                 </div>
                 <div class="property-status">
-                  <a class="btn btn-success btn-md btn-block" name="details">Résèrver</a>
+                  <a href="{{ path('reserverBien',{'id':bienObject.id} )}}" class="btn btn-success btn-md btn-block"
+                     name="details">Résèrver</a>
                 </div>
               </div>
               <div class="property-content">
-                <h3><a href="{{path('listeBiens',{'id':bienObject.id})}}">{{ bienObject.nomBien }}</a><small>22, JJ
-                    Road, Yogyakarta</small></h3>
+                <h3>{{ bienObject.nomBien }}<small>22, JJ Road, Yogyakarta</small></h3>
               </div>
             </div>
           </div>
