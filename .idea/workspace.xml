@@ -4,24 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php" description="}" line="81" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03fbc841-11b2-499f-ae98-b00e72cd4e4e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/baseListes.html.twig" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Client.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Client.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Reservation.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Entity/Reservation.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Form/ClientType.php" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Form/ClientType.php" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/Details/details.html.twig" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/Details/details.html.twig" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/Details/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/Details/script.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/listes/listeBiens.html.twig" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/listes/listeBiens.html.twig" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/listes/listeReservations.html.twig" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/listes/listeReservations.html.twig" />
-      <change beforePath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig" afterPath="$PROJECT_DIR$/src/KeurGuiImmoBundle/Resources/views/rechercheBiens/catalogue.html.twig" />
-      <change beforePath="$PROJECT_DIR$/web/js/datatables.js" afterPath="$PROJECT_DIR$/web/js/datatables.js" />
-      <change beforePath="$PROJECT_DIR$/web/js/jquery.js" afterPath="$PROJECT_DIR$/web/js/jquery.js" />
-      <change beforePath="$PROJECT_DIR$/web/js/keurGuiImmo.js" afterPath="$PROJECT_DIR$/web/js/keurGuiImmo.js" />
-      <change beforePath="$PROJECT_DIR$/web/style.css" afterPath="$PROJECT_DIR$/web/style.css" />
-    </list>
+    <list default="true" id="03fbc841-11b2-499f-ae98-b00e72cd4e4e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +32,8 @@
       <file leaf-file-name="RechercheBiensController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1099">
-              <caret line="91" column="31" lean-forward="false" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+            <state relative-caret-position="253">
+              <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -459,12 +442,12 @@
       <workItem from="1519203631186" duration="2113000" />
       <workItem from="1519214705549" duration="2471000" />
       <workItem from="1519222715716" duration="55784000" />
-      <workItem from="1519373455873" duration="13806000" />
+      <workItem from="1519373455873" duration="13986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185393000" />
+    <option name="totallyTimeSpent" value="185573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1368" height="780" extended-state="6" />
@@ -871,8 +854,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KeurGuiImmoBundle/Controller/RechercheBiensController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1099">
-          <caret line="91" column="31" lean-forward="false" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+        <state relative-caret-position="253">
+          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
           <folding />
         </state>
       </provider>
