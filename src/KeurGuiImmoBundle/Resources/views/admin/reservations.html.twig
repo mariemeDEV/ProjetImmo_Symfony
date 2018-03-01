@@ -1,0 +1,37 @@
+{% extends '::baseAdmin.html.twig' %}
+
+{% block table %}
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Office</th>
+            <th>Age</th>
+            <th>Start date</th>
+            <th>Salary</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Prescott Bartlett</td>
+            <td>Technical Author</td>
+            <td>London</td>
+            <td>27</td>
+            <td>2011/05/07</td>
+            <td>$145,000</td>
+        </tr>
+
+        </tbody>
+    {% endblock %}
+
+    {% block title %}
+        <div class="container" style="position:absolute;top:350px;left:160px">
+            <center><img rel="icon" type="image/x" src="{{ asset('images/det.png') }}" style="position:relative;
+            top:30px"/></center>
+        </div>
+        <hr>
+    {% endblock %}
+
+    {% block content %}
+
+    {% endblock %}

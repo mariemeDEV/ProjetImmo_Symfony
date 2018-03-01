@@ -31,7 +31,7 @@ class Bien
     /**
      * @var bool
      *
-     * @ORM\Column(name="etatBien", type="boolean")
+     * @ORM\Column(name="etatBien", type="integer")
      */
     private $etatBien;
 
@@ -67,12 +67,6 @@ class Bien
      * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\Image", mappedBy="bien")
      */
     private $imagesBien;
-
-  
-     /**
-     * @ORM\OneToMany(targetEntity="KeurGuiImmoBundle\Entity\Reservation", mappedBy="bien")
-     */
-    private $reservation;
 
 
     /**
@@ -112,7 +106,7 @@ class Bien
     /**
      * Set etatBien
      *
-     * @param boolean $etatBien
+     * @param integer $etatBien
      *
      * @return Bien
      */
@@ -126,7 +120,7 @@ class Bien
     /**
      * Get etatBien
      *
-     * @return bool
+     * @return integer
      */
     public function getEtatBien()
     {

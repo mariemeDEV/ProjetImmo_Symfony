@@ -59,6 +59,13 @@ class Client
     /**
      * @var string
      *
+     * @ORM\Column(name="login", type="string", length=30, unique=true)
+     */
+    private $login;
+
+    /**
+     * @var string
+     *
      * @ORM\Column(name="motDePasse", type="string", length=30, unique=true)
      */
     private $motDePasse;
@@ -213,7 +220,7 @@ class Client
      */
     public function setmotDePasse($motDePasse)
     {
-        $this->email = $motDePasse;
+        $this->motDePasse = $motDePasse;
 
         return $this;
     }
@@ -226,6 +233,30 @@ class Client
     public function getmotDePasse()
     {
         return $this->motDePasse;
+    }
+
+    /**
+     * Set login
+     *
+     * @param string $login
+     *
+     * @return Client
+     */
+    public function setlogin($login)
+    {
+        $this->login = $login;
+
+        return $this;
+    }
+
+    /**
+     * Get login
+     *
+     * @return string
+     */
+    public function getlogin()
+    {
+        return $this->login;
     }
 }
 

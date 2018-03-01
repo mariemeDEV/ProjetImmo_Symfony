@@ -1,0 +1,175 @@
+{% extends '::baseListes.html.twig' %}
+
+    {% block nav %}
+        <a href="#" style="font-size:10px">Bien</a>
+        <a href="#" style="font-size:10px" >Localité</a>
+        <a href="#"style="font-size:10px">Type</a>
+    {% endblock %}
+
+    {% block table %}
+        <table class="table table-light table-striped table-bordered" style="position:relative;top:10px">
+            <thead>
+            <tr style="background-color: black;color:white">
+                <th>Nom Bien</th>
+                <th>Localité</th>
+                <th>Type</th>
+                <th>Nom Client</th>
+                <th>Adresse</th>
+                <th>Etat Résèrvation</th>
+                <th>Opérations</th>
+            </tr>
+            </thead>
+            {% for reservationObject in listeReserv %}
+                <tr>
+                    <td>{{ reservationObject.bien.nomBien }}</td>
+                    <td>{{ reservationObject.bien.localite.libelleLocalite}}</td>
+                    <td>{{ reservationObject.bien.typeBien.libelleTypeBien }}</td>
+                    <td>{{ reservationObject.client.nomComplet }}</td>
+                    <td>{{ reservationObject.client.adresse }}</td>
+                    <td>{{ reservationObject.etat}}</td>
+                    <td><a class="btn btn-success btn-xs" id="dets" href="{{ path('validationContrat',{'id'
+                            :reservationObject.id}) }}">Détails</a></td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        <center><img rel="icon" type="image/x" src="{{ asset('images/det.png') }}" style="position:relative;
+        top:30px"/></center>
+        <hr>
+        <div class="container" style="position:relative;
+        top:60px">
+
+            <!--slider-->
+            <ul class="pgwSlider">
+                <li>
+                    <img rel="icon" type="image/x-icon"  alt="Cuisine" data-description="Cuisine en trés bon etat"
+                         src="{{ asset('images/3.jpg')}}"/>
+                </li>
+                <li>
+                    <img rel="icon" type="image/x-icon"  alt="Chambre" data-description="Chambre spacieux"
+                         src="{{ asset('images/2.jpg')}}"/>
+                </li>
+
+                <li>
+                    <img rel="icon" type="image/x-icon"  alt="Salon" data-description="Salon spacieux" src="{{ asset
+                        ('images/1.jpg')}}"/>
+                    <span>Shanghai, China</span>
+                </li>
+
+                <li>
+                    <img rel="icon" type="image/x-icon"  alt="Salle de bain" data-description="Salle de bain joli et
+                    propre" src="{{ asset('images/5.jpg')}}"/>
+                    <span>New York, NY, USA</span>
+                </li>
+            </ul>
+            <!--fin slider-->
+        </div>
+
+        <div class="container">
+            <div class="card" style="position:relative;top:70px">
+                <div class="card-header">VALIDATION DU CONTRAT POUR L'OCTROIE DU BIEN</div>
+                <div class="card-body">
+            <div class="row-lg-12" style="position:relative;top:10px;
+            position:relative;right:5px">
+                <div class="col-lg-6" style="">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-header" style="text-decoration:underline"><b><center>BIEN CHOISI</center></b></div>
+                            <div class="card-body">
+                                <p>Matricule Bien: {{ bienChoisi.id }}</p>
+                                <p>Nom  : {{ bienChoisi.nomBien }}</p>
+                                <p>Type :  {{ bienChoisi.typeBien.libelleTypeBien }}</p>
+                                <p>Localite : {{ bienChoisi.localite.libelleLocalite }}</p>
+                                <p>Description : {{ bienChoisi.descriptionBien }}</p>
+                                <p>Etat : {{ bienChoisi.etatBien }}</p>
+                            </div>
+                            <div class="card-body"></div>
+                            <div class="card-footer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-header" style="text-decoration:underline"><b><center>INFORMATIONS CLIENT CONCÉRNÉ</center></b></div>
+                            <div class="card-body">
+                                <p>Nom     : {{ listeReserv[0].client.nomComplet }}</p>
+                                <p>Adresse : {{ listeReserv[0].client.adresse }}</p>
+                                <p>Adresse : {{ listeReserv[0].client.telephone }}</p>
+                                <p>Adresse : {{ listeReserv[0].client.email }}</p>
+                            </div>
+                            <div class="card-footer"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--fin Informations-->
+        </div>
+                <div class="card-footer" style="margin-top:10px">
+                    <div class="row">
+                        <div class="col"><b>CAUTION</b> : {{ bienChoisi.prixLocation }}Fcfa</div>
+                        <div class="col"><b>TOTAL</b> : {{ total }}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><b>MENSUALITÉ</b> : {{ bienChoisi.prixLocation }}cfa</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <form method="POST">
+                                <div class="form-group">
+                                    <label for="comment"><b>TERMES DU CONTRAT</b>:</label>
+                                    <textarea class="form-control" rows="5" id="contratTermes" readonly>
+                            Dans le mois qui suit la date de prise d’effet du
+                            contrat, le locataire peut apporter des précisions sur l’état des lieux. Le bailleur
+                            doit pouvoir répondre et constater la véracité de ces précisions.
+                            À défaut d’état des lieux, la présomption établie par l’article <strong>1731</strong> du code civil, tel qu’applicable en
+                            Polynésie  française,  ne
+                            pourra être invoquée par celle des parties qui aura fait obstacle à l’établissement de l’état des lieux.
+                            En fin de bail, lors de la restitution des clefs, un état des lieux de sortie sera à nouveau établi contradictoirement.                                    </textarea>
+                                </div>
+                                <center>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" id="inlineCheckbox1"
+                                                       value="" name="1">
+                                                <label class="" for="">J'accepte les termes du contrat</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" id="inlineCheckbox2"
+                                                       value="" name="1">
+                                                <label class="" for="">Je refuse</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <center>
+                                        <div class="row">
+                                            <div class="col"><button type="submit" class="btn btn-success btn-md"
+                                             name="saveContrat" id="validation" disabled="disabled">Valider</button></div>
+                                            <div class="col"><button type="reset" class="btn
+                                            btn-danger btn-md">Annuler</button></div>
+                                        </div>
+                                    </center>
+                                </center>
+                            </form>
+                        </div>
+                        <div class="col">
+                            <form>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="inlineRadioOptions"
+                                           id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Contrat valabe 1an renouvelable</label>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+        </div>
+        </div>
+    {% endblock %}
+
+

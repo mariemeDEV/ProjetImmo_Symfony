@@ -28,26 +28,24 @@ class Contrat
      */
     private $dateContrat;
 
-
     /**
-     * @var int
+     * @var string
      *
-     * @ORM\Column(name="mensualite", type="integer")
+     * @ORM\Column(name="etat", type="string")
      */
-    private $mensualite;
+    private $etat;
 
-   
     /**
-     * @var int
+     * @var integer
      *
      * @ORM\Column(name="caution", type="integer")
      */
     private $caution;
 
     /**
-     * @var int
+     * @var integer
      *
-     * @ORM\Column(name="duree", type="int", length=25)
+     * @ORM\Column(name="duree", type="integer")
      */
     private $duree;
 
@@ -104,52 +102,54 @@ class Contrat
     }
 
     /**
-     * Set me
+     * Set caution
      *
-     * @param string $me
+     * @param integer $caution
      *
      * @return Contrat
      */
-    public function setMe($me)
+    public function setCaution($caution)
     {
-        $this->me = $me;
+        $this->caution = $caution;
 
         return $this;
     }
 
     /**
-     * Get me
+     * Get caution
+     *
+     * @return integer
+     */
+    public function getCaution()
+    {
+        return $this->caution;
+    }
+
+
+    /**
+     * Set etat
+     *
+     * @param string $etat
+     *
+     * @return Contrat
+     */
+    public function setEtat($etat)
+    {
+        $this->etat = $etat;
+
+        return $this;
+    }
+
+    /**
+     * Get etat
      *
      * @return string
      */
-    public function getMe()
+    public function getetat()
     {
-        return $this->me;
+        return $this->etat;
     }
 
-    /**
-     * Set mensualite
-     *
-     * @param integer $mensualite
-     *
-     * @return Contrat
-     */
-    public function setMensualite($mensualite)
-    {
-        $this->mensualite = $mensualite;
-
-        return $this;
-    }
-
-    /**
-     * Get mensualite
-     *
-     * @return int
-     */
-    public function getMensualite()
-    {
-        return $this->mensualite;
-    }
 
     /**
      * Set idBien
@@ -176,57 +176,9 @@ class Contrat
     }
 
     /**
-     * Set inClient
-     *
-     * @param integer $inClient
-     *
-     * @return Contrat
-     */
-    public function setInClient($inClient)
-    {
-        $this->inClient = $inClient;
-
-        return $this;
-    }
-
-    /**
-     * Get inClient
-     *
-     * @return int
-     */
-    public function getInClient()
-    {
-        return $this->inClient;
-    }
-
-    /**
-     * Set caution
-     *
-     * @param integer $caution
-     *
-     * @return Contrat
-     */
-    public function setCaution($caution)
-    {
-        $this->caution = $caution;
-
-        return $this;
-    }
-
-    /**
-     * Get caution
-     *
-     * @return int
-     */
-    public function getCaution()
-    {
-        return $this->caution;
-    }
-
-    /**
      * Set duree
      *
-     * @param string $duree
+     * @param integer $duree
      *
      * @return Contrat
      */
@@ -240,7 +192,7 @@ class Contrat
     /**
      * Get duree
      *
-     * @return string
+     * @return integer
      */
     public function getDuree()
     {

@@ -1,0 +1,267 @@
+<html>
+  <head>
+    <style>
+      /* On commence par définir les propriétés de la page : les marges en haut
+       * et en bas permettront d'insérer un en-tête et un pied de page */
+      @page {
+        margin: 50px 0 25px 0;
+      }
+      /* La position fixed permet de placer les éléments sur toutes les pages
+       * du document pdf, le reste n'est que décoration */
+      #header, #footer {
+        position: fixed; 
+        left: 0px;
+        right: 0px;
+        color: #fff;
+        background-color: #000;
+      }
+      #header {
+        top: -50px;
+        height: 50px;
+      }
+      #footer {
+        bottom: -25px;
+        height: 25px;
+      }
+      /* Pour améliorer un peu la lisibilité on ajoute une marge au corps de
+       * texte. Ca aurait pu être fait en agrandissant les marges au niveau
+       * de la page mais je trouve qu'utiliser un div dédié pour le contenu
+       * est cohérent */
+      #content { 
+        margin: 25px;
+      }
+      /* On teste quelques d'options css différentes */
+      h1 { text-transform: uppercase; text-align: center; font-weight: bold}
+      h2 {font-style: italic; font-weight: bold; border: solid 1px #ccc; }
+      /* On met même en place un système de colonnes pour tester les float */
+      .col-25, .col-75 { float: left; }
+      .col-25 { width: 25%; }
+      .col-75 { width: 75%; }
+      .row { clear: both; }
+
+      .address_content{
+          position:relative;
+          left:640px;
+          border: 1px dotted gray; border-radius:10px;
+          width:250px; 
+      }
+      .container{
+        width:950px;
+        border:solid 2px gray; border-radius:20px;
+        position:relative; left:250px;
+        
+      }
+      .load{
+        position:relative; top:40px; left:1300px;      
+        width:100px;
+        border: solid 1px; border-radius:10px;
+        background-color:Silver;
+        
+      }
+      .load li a{
+        text-decoration:none;
+      }
+      img{
+        width:100px;
+        margin-top:25px;
+      }
+    </style>
+  </head>
+  <body>
+     
+
+       {% block sidebar %}
+                    <ul class="load">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/keur_gui_immo/web/app_dev.php/contrat/pdf">telecharger contratpdf</a><br>
+                        </li>
+                    </ul>
+                    
+                {% endblock %}
+      <div class="container">
+       <img src="{{  asset('images/logo1.jpg') }}"alt="logo" />
+       <p style="margin-top:-10px;">KEUR_GUI_IMMO </p>
+    <!-- On commence par ajouter le header et le footer pour qu'ils soient 
+      visibles sur toutes les pages. Si on les ajoute après avoir rempli plus
+      d'une page, ils ne seront insérés qu'après le saut de page -->
+    <div id="header">
+   
+      <!-- Grâce aux options définies dans le contrôleur on peut insérer des images à partir de leur url absolue -->
+      <h3>CONTRAT-KEUR_GUI_IMMO</h3><br>
+      {# <img src="{{  asset('/KeurGuiImmoBundle/Resources/views/docView/image/maison.jpg') }}" alt="logo" /> #}
+    </div>
+    <div id="footer">
+        KeurGuiImmo@2017-2018
+    </div>
+    <!-- Maintenant on rempli le document -->        
+    <div id="content">
+            <h1 style="margin-top:-60px;">Fiche de contrat</h1>
+             <div class="address_content">
+                <strong>name :</strong>   Mamadou Kane<br>
+                <strong>Address :</strong>    Almadi<br>                
+                <strong>Codepostal :</strong>    10000<br>
+                <strong>city :</strong>   Dakar<br>
+            
+            </div>
+            <br>
+            <h3>1–ETAT DES LIEUX</h3>
+           
+            <p style="border: solid 1px gray; border-radius:5px;"><br>Un état des lieux contradictoire sera établi lors de la remise des clés au locataire et sera annexé au présent bail.
+                Dans le mois qui suit la date de prise d’effet du 
+                contrat, le locataire peut apporter des précisions sur l’état des lieux. Le bailleur 
+                doit pouvoir répondre et constater la véracité de ces précisions.
+                À défaut d’état des lieux, la présomption établie par l’article <strong>1731</strong> du code civil, tel qu’applicable en 
+                Polynésie  française,  ne 
+                pourra être invoquée par celle des parties qui aura fait obstacle à l’établissement de l’état des lieux.
+                En fin de bail, lors de la restitution des clefs, un état des lieux de sortie sera à nouveau établi contradictoirement.<br><br>
+            </p>
+             <hr>
+            <h3>2-DUREE DU BAIL</h3>
+            
+            <p>
+                                  Le présent bail est établi pour une durée de
+                  :
+                  (cocher et dénombrer)
+                  □   ...... ans (trois ans minimum pour les locaux non meublés)
+                  □   ...... an(s) (un an minimum pour les locaux meublés)
+                  Il commence à courir le .................................. 
+                  pour se terminer le ..............................................
+            </p>
+            <hr>
+            <h3>3-LOYER</h3>
+            
+            <p>
+                En sus des charges et conditions indiquées ci
+                -
+                après, le locataire s’engage à verser un loyer mensuel, payable d’avance le <strong><span style="color:red;">5</span></strong> de 
+                chaque  mois,  fixé  pour  la  première  année 
+                à  la  somme  de  ..................................................  francs  CFA,  au  bénéfice  du  bailleur. 
+                Tout paiement aura lieu
+                selon les modalités suivantes
+                : 
+                ............................................................................
+                Le montant du loyer pourra être révisé, conformément à la réglementat
+                ion en vigueur.
+            </p>
+            <hr>
+            <h3>4-OBLIGATIONS DU BAILLEUR</h3>
+            
+            <p>
+                a) Le bailleur est tenu de délivrer au locataire un logement en bon état d'usage et de réparation.<br><br>
+                b) Il doit assurer au locataire la jouissance paisible des lieux loués.<br><br>
+                c) Il doit entretenir les locaux
+                    loués en état de servir à l'usage prévu par le présent bail et y faire toutes les réparations, autres que 
+                    locatives, nécessaires au maintien en état et à l'entretien normal des locaux loués.<br><br>
+                d) Il ne peut s'opposer aux aménagements réalisés par le locatai
+                re dès lors que ceux
+                -
+                ci ne constituent pas une transformation des 
+                biens loués.<br><br>
+                e) Lorsque des travaux essentiels à la salubrité des lieux loués sont nécessaires, il doit exécuter ces travaux.<br><br>
+                f) Il doit remettre gratuitement une quittance des sommes payées
+                au locataire qui en fait la demande.
+            </p>
+            <hr>
+            <h3>5-OBLIGATIONS DU LOCATAIRE</h3>
+            
+            <p>
+                                a) Le locataire est tenu de payer le loyer et les charges récupérables aux termes convenus.<br><br>
+                b) Il doit user paisiblement des locaux loués suivant la destination qui leur a été 
+                donnée par le présent bail.<br><br>
+                c) Il doit répondre des pertes et des dégradations des biens loués survenues pendant la durée du bail, à  moins qu'il n'apport
+                e la 
+                preuve qu'elles ont eu lieu par cas de force majeure, par la faute du bailleur ou par le fait d'un
+                tiers qu'il n'a pas introduit dans le 
+                logement.<br><br>
+                d) Il doit prendre à sa charge l'entretien courant des biens loués, les menues réparations et les réparations locatives défin
+                ies par la 
+                réglementation  en  vigueur,  sauf  si  elles  sont  occasionnées  par  vétusté,
+                malfaçon,  vice  de  construction,  cas  fortuit  ou  force 
+                majeure.<br><br>
+                e) Il doit laisser exécuter dans les lieux loués les travaux d’amélioration des parties communes ou des parties privatives, a
+                insi 
+                que les travaux nécessaires au maintien en état et à l’entretie
+                n normal des locaux loués.<br> <br>
+                f)  Il  ne  peut  transformer  les  locaux  et  équipements  loués  sans  l’accord  écrit  du  propriétaire.  A  défaut  de  cet  accord,  le 
+                propriétaire peut exiger du locataire, à son départ des lieux, leur remise en l’état ou conserver à son bé
+                néfice les transformations 
+                effectuées sans que le locataire puisse réclamer une indemnisation des frais engagés. Le bailleur a toutefois la faculté d’ex
+                iger 
+                aux frais du locataire la remise immédiate des lieux en l’état lorsque les transformations mettent 
+                en péril le bon fonctionnement 
+                des équipements ou la sécurité du local.<br><br>
+                g) Il doit s’assurer contre les risques dont il doit répondre en sa qualité de locataire et en justifier à la demande du bail
+                leur.<br><br>
+                h) Le locataire ne peut ni céder le contrat de locati
+                on, ni sous
+                -
+                louer tout ou partie du logement sauf avec l’accord écrit du 
+                bailleur, y compris sur le prix du loyer.<br><br>
+                i) Il devra laisser visiter les locaux loués, deux heures maximum par jour ouvrable, en cas de congé donné ou reçu.
+            </p>
+            <hr>
+            <h3>6-DEPOT DE GARANTIE</h3>
+            
+            <p>
+                Afin   de   garantir   la   bonne   et   entière   exécution   de   ses   obligations,   le   locataire   verse   au   bailleur   la   somme   de 
+                ........................................ 
+                Francs
+                CFA, (représentant au maximum un mois et demi de loyer en principal). 
+                Le montant de ce dépôt
+                de garantie ne porte pas intérêt au bénéfice du locataire. Il ne doit faire l’objet d’aucune révision durant 
+                l’exécution du contrat de location, éventuellement renouvelé.
+                Cette somme est restituée au locataire en fin de bail, dans un délai maximal d’un mo
+                is  à  compter  de  la  restitution  des  clés,  et 
+                déduction  faite  le  cas  échéant,  des  sommes 
+                restant  dues  au  bailleur  et  des  sommes  dont  celui
+                -
+                ci  pourrait  être  tenu,  aux  lieu  et 
+                place du locataire, sous réserve qu’elles soient dûment justifiées.
+                À défaut de rest
+                itution dans le délai prévu, le solde du dépôt de garantie restant dû au locataire, après arrêté des comptes, produit 
+                intérêt au taux légal au profit du locataire.
+                Le dépôt de garantie ne peut, en aucun cas, servir au paiement des loyers en cours du bail.
+            </p>
+            <hr>
+            <h3>7-CLAUSE RESOLUTOIRE</h3>
+            
+            <p>
+                    A défaut par le locataire d'exécuter l'une de ses obligations, le présent contrat sera résilié de plein droit dans les cas suivants :
+                    -
+                    non paiement du loyer, des charges, du dépôt de garantie
+                    (deux mois après commandement
+                    du bailleur demeuré infructueux) ;
+                    -
+                    non souscription d’une assurance des risques locatifs
+                    (un mois après commandement du bailleur demeuré infructueux)
+                    ;
+                    -
+                    défaut d’entretien manifeste.
+            </p>
+            <hr>
+            <h3>8-LITIGES</h3>
+            
+            <p>
+                  En  cas  de  litige  entre  les  parties,  et  à  défaut 
+                    d’accord amiable, le tribunal de première instance de Dakar est compétent pour 
+                    traiter de ces litiges.
+                    Fait et signé à .............................................. le ........................................................ ,
+                    en....................e
+                    xemplaires dont un remis à chacune des parties qui le reconnaît.<br><br>
+                    (Faire précéder la signature du bailleur et du locataire de la mention manuscrite "lu et approuvé")<br><br><br>
+                    LE BAILLEUR <span style="margin-left:500px;">LE LOCATAIRE</span><br><br><br>
+                    
+            </p>
+            <hr>
+      {# {% for objects in object %}
+        <div class="row">
+          <div class="col-25"><h3>{{objects.nomBien ~ " " ~ objects.prixLocation ~ " " ~ objects.descriptionBien}}</h3></div>
+          
+        </div>
+      {% endfor %}  #}
+    </div> 
+
+    </div>       
+  </body>
+</html>

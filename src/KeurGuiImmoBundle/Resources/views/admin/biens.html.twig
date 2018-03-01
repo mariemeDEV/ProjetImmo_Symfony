@@ -1,0 +1,32 @@
+{% extends '::baseAdmin.html.twig' %}
+
+{% block table %}
+    <thead>
+    <tr>
+        <th>Nom Bien</th>
+        <th>Etat des lieux</th>
+        <th>Description du bien</th>
+        <th>Prix de location</th>
+        <th>Localité</th>
+        <th>Type du bien</th>
+        <th>Image</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody style="font-size:14px;font-family: 'Times New Roman'">
+    {% for bienObject in listeBiens %}
+        <tr>
+            <td>{{ bienObject.nomBien }}</td>
+            <td>{{ bienObject.etatBien }}</td>
+            <td>{{ bienObject.descriptionBien }}</td>
+            <td>{{ bienObject.prixLocation }}</td>
+            <td>{{ bienObject.localite.libelleLocalite }}</td>
+            <td>{{ bienObject.typeBien.libelleTypeBien }}</td>
+            <td><img style="height:30px"rel="icon" type="image/x-icon" src="{{ asset('images/3.jpg')}}"/></td>
+            <td> <a href="" class="btn btn-success btn-xs btn-block" name="details">Détails</a></td>
+        </tr>
+    {% endfor %}
+
+    </tbody>
+
+{% endblock %}

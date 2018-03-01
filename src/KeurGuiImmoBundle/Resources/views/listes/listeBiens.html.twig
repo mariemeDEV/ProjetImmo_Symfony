@@ -7,28 +7,32 @@
         <a href="#"style="font-size:10px"  id="t">Type</a>
     {% endblock %}
 
-    {% block headContent %}
-        <tr style="background-color: black;color:white">
-            <th scope="col">Id Bien</th>
-            <th scope="col">Nom Bien</th>
-            <th scope="col">Description</th>
-            <th scope="col">Localité</th>
-            <th scope="col">Type</th>
-            <th scope="col" colspan="2">Actions</th>
-        </tr>
-    {% endblock %}
+{% block table %}
+   <table class="table table-light table-striped table-bordered" id="tab">
+       <table head>
+           <tr style="background-color: black;color:white">
+               <td scope="col">Id Bien</td>
+               <td scope="col">Nom Bien</td>
+               <td scope="col">Description</td>
+               <td scope="col">Localité</td>
+               <td scope="col">Type</td>
+               <td scope="col" colspan="2">Actions</td>
+           </tr>
+       </table>
 
-    {% block bodyContent %}
-        {% for bien in listeBiens %}
-            <tr>
-                <td>{{ bien.id }}</td>
-                <td>{{ bien.nomBien }}</td>
-                <td>{{ bien.descriptionBien }}</td>
-                <td>{{ bien.localite.libelleLocalite }}</td>
-                <td>{{ bien.typeBien.libelleTypeBien }}</td>
-                <td><input name="" value="Détails" class="btn btn-success btn-xs btn-block" type="submit"></td>
-                <td><input name="" value="Supprimer" class="btn btn-danger btn-xs btn-block" type="submit"></td>
 
-            </tr>
-        {% endfor %}
-    {% endblock %}
+       {% for bien in listeBiens %}
+           <tr>
+               <td>{{ bien.id }}</td>
+               <td>{{ bien.nomBien }}</td>
+               <td>{{ bien.descriptionBien }}</td>
+               <td>{{ bien.localite.libelleLocalite }}</td>
+               <td>{{ bien.typeBien.libelleTypeBien }}</td>
+               <td><input name="" value="Détails" class="btn btn-success btn-xs btn-block" type="submit"></td>
+               <td><input name="" value="Supprimer" class="btn btn-danger btn-xs btn-block" type="submit"></td>
+           </tr>
+       {% endfor %}
+   </table>
+{% endblock %}
+
+

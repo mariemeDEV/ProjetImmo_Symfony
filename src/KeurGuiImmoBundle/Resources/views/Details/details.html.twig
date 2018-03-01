@@ -58,18 +58,14 @@
             <div class="col-md-5">
                 <div class="card">
                     <div class="card-header nom">
-                        <h6>Nom du bien :</h6>
-                        <p>{{ bienChoisi.nomBien }}</p>
+                        <h6>Nom du bien :</h6><p>{{ bienChoisi.nomBien }}</p>
                     </div>
                     <div class="card-body desc loc">
-                        <h6>Description du bien :</h6>
-                        <p></p>
-                        <h6>Quartier :</h6>
-                        <p>{{ bienChoisi.localite.libelleLocalite }}</p>
+                        <h6>Description du bien :</h6><p></p>
+                        <h6>Quartier :</h6><p>{{ bienChoisi.localite.libelleLocalite }}</p>
                     </div>
                     <div class="card-footer prix">
-                        <h6>Prix de location :</h6>
-                        <p>{{ bienChoisi.prixLocation }}</p>
+                        <h6>Prix de location :</h6><p>{{ bienChoisi.prixLocation }}</p>
                     </div>
                 </div>
             </div>
@@ -79,9 +75,9 @@
             <div class="col-md-1"></div>
             <!--Formulaire de résérvation-->
             <div class="col-md-6" style="position:absolute;top:685px;right:3px">
-                <div class="card">
+                <div class="card" id="formIns">
                     <div class="card-body">
-                        {{ form_start(formulaireReservation) }}
+                            {{form_start(formulaireReservation)}}
                             {{form_label(formulaireReservation.numPiece)}}
                             {{form_widget(formulaireReservation.numPiece, {"attr": {"class": "form-control"}})}}
 
@@ -100,37 +96,53 @@
                             {{form_label(formulaireReservation.motDePasse)}}
                             {{form_widget(formulaireReservation.motDePasse, {"attr": {"class": "form-control"}})}}
 
-                            <input type="submit" value="Reserver" class="form-control btn-primary">
+                            {{form_label(formulaireReservation.login)}}
+                            {{form_widget(formulaireReservation.login, {"attr": {"class": "form-control"}})}}
+c +
+                            <div class="row" style="margin-top:10px">
+                                <div class="col-md-3">
+                                    <input type="submit" value="Reserver" name="reservation" class="form-control btn-sm
+                                           btn-success">
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="reset" value="Annuler" class="form-control btn-sm btn-danger"></div>
+                                </div>
+                            </div>
                         {{form_end(formulaireReservation)}}
 
-                        <!--Formulaire de connexion-->
-                        <form role="form" id="connexion" method="POST">
-                            <div class="form-group">
-                                <label for="log"><span class=""></span> Login</label>
-                                <input type="text" class="form-control" id="login" placeholder="Login">
-                            </div>
-                            <div class="form-group">
-                                <label for="pw"><span class=""></span>Mot de passe</label>
-                                <input type="text" class="form-control" id="pw" placeholder="Mot de passe">
-                            </div>
-                            <button type="submit" class="btn btn-success" name="connexion"><span
-                                        class=""></span>Connexion</button>
-                            <button type="reset" class="btn btn-danger"><span class=""></span> Annuler</button>
-                        </form>
+            <!--Formulaire de connexion-->
 
-                    </div>
-                </div>
-            </div>
+                    <form role="form" id="connexion" method="POST" id="connForm">
+                        <div class="form-group">
+                            <label for="log"><span class=""></span> Login</label>
+                            <input type="text" class="form-control" name="log" id="login" placeholder="Login">
+                        </div>
+                        <div class="form-group">
+                            <label for="pw"><span class=""></span>Mot de passe</label>
+                            <input type="text" class="form-control" name="psswd" id="pw" placeholder="Mot de passe">
+                        </div>
+                        <button type="submit" class="btn btn-success" name="connexion"><span
+                                    class=""></span>Connexion</button>
+                        <button type="reset" class="btn btn-danger"><span class=""></span> Annuler</button>
+                    </form>
+
             <!--fin colonne formulaire-->
+
+        </div>
+        <!--fin col-->
         </div>
         <!--fin row-->
-    </div>
+        </div>
     <!--fin container-->
+    </div>
+    </div>
+
 
     <!--Inclusions javascript-->
     {% block javascripts %}
         <script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script>
         <script type="text/javascript" src="{{ asset('js/pgwslider.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/keurGuiImmo.js') }}"></script>
         <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
     {% endblock %}
 {% endblock %}

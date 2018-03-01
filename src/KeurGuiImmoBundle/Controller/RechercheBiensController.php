@@ -9,6 +9,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
 use Symfony\Component\Form\AbstractType;
 use KeurGuiImmoBundle\Entity\Client;
+use KeurGuiImmoBundle\Entity\Bien;
 use KeurGuiImmoBundle\Entity\Reservation;
 use KeurGuiImmoBundle\Form\ClientType;
 
@@ -27,7 +28,7 @@ class RechercheBiensController extends Controller
 
             $localites = $localiteRep->findAll();
             $typesBien = $typeBiensRep->findAll();
-            $biens = $biensRep->findAll();
+            $biens = $biensRep->findBy(['etatBien'=>0]);
 
             if ($chercherReq->ismethod('POST')) {
 
@@ -49,23 +50,32 @@ class RechercheBiensController extends Controller
             ->getManager()
             ->getRepository("KeurGuiImmoBundle:Bien")->find($id);
 
-      $reservataire = new Client();
-      $reservation = new Reservation();
+        $reservataire = new Client();
+        $reservation  = new Reservation();
+        $formReservationBien = $this->createForm(ClientType::class,$reservataire);
+        $em = $this->getDoctrine()->getManager();
 
-      $formReservationBien = $this->createForm(ClientType::class,$reservataire);
-      $em = $this->getDoctrine()->getManager();
-
-      //Si le client existe deja,on établit sa connexion et on enregistre une novelle résérvation pour lui
+      //Si le client n'esxiste pas,on lui crée un compte et on enregistre en meme temps sa résèrvation
       if($reserverReq->ismethod("POST")) {
-          if (isset($_POST["connexion"])) {
-
-          }
-      }
-      //Sinon on lui crée dabodr un compte avant d'enregistrer sa résérvation
-      else{
           $formReservationBien->handleRequest($reserverReq);
-              if($formReservationBien->isvalid()){
-                  $em->persist($reservataire);
+          if($formReservationBien->isValid()){
+              $em->persist($reservataire);
+              $reservation
+                  ->setClient($reservataire)
+                  ->setBien($bienChosen)
+                  ->setEtat(0)
+                  ->setDateReservation(new \DateTime());
+              $em->persist($reservation);
+              $em->flush();
+          }
+          //si le client existe deja et essaie de se connecter
+          else if(isset($_POST["connexion"])){
+              $client = $this
+                  ->getDoctrine()
+                  ->getManager()
+                  ->getRepository("KeurGuiImmoBundle:Client")->findBy(['login'=>$_POST['log'],
+                      'motDePasse'=>$_POST['psswd']]);
+              if($client){
                   $reservation
                       ->setClient($reservataire)
                       ->setBien($bienChosen)
@@ -73,34 +83,12 @@ class RechercheBiensController extends Controller
                       ->setDateReservation(new \DateTime());
                   $em->persist($reservation);
                   $em->flush();
+
               }
-
           }
-
+      }
         return $this->render("KeurGuiImmoBundle:Details:details.html.twig",
             array("bienChoisi"=>$bienChosen,"formulaireReservation"=>$formReservationBien->createView()));
-    }
-
-
-    /**
-     * @Route("/listes/listeBiens")
-     *
-     */
-    public function listeBiensAction(){
-        $listeBiensRep = $this->getDoctrine()->getManager()->getRepository('KeurGuiImmoBundle:Bien');
-        $listeBiens = $listeBiensRep->findAll();
-        return $this->render('KeurGuiImmoBundle:listes:listeBiens.html.twig',array("listeBiens"=>$listeBiens));
-    }
-
-    /**
-     * @Route("/listes/listeReservations")
-     *
-     */
-    public function listeReservationsAction(){
-        $listeReservRep = $this->getDoctrine()->getManager()->getRepository('KeurGuiImmoBundle:Reservation');
-        $listeReserv = $listeReservRep->findAll();
-        return $this->render('KeurGuiImmoBundle:listes:listeReservations.html.twig'
-            ,array($listeReserv));
     }
 
 }

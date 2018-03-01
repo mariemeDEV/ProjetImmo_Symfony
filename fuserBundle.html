@@ -1,0 +1,1502 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8"><script async="true" type="text/javascript" src="fuserBundle_fichiers/event" data-owner="criteo-tag"></script><script type="text/javascript" async="" src="fuserBundle_fichiers/ld.js"></script><script type="text/javascript" async="" src="fuserBundle_fichiers/dc.js"></script><script type="text/javascript" src="fuserBundle_fichiers/b10765e88c"></script><script src="fuserBundle_fichiers/sln.js" id="sln_bar"></script><script src="fuserBundle_fichiers/nr-1071.js"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+        <meta name="robots" content="index, follow, all">
+        <meta name="Author" content="SensioLabs">
+                    <meta name="description" content="Getting Started With FOSUserBundle: The Symfony Security component provides a flexible security framework that allows you to load users from configuration, a database, or anywhere else you can imagine...">
+                <meta name="Keywords" content="symfony3, symfony2, symfony, project, framework, php, php5, php7, open-source, components, symphony, symfony framework, symfony tutorial">
+
+                <link rel="search" type="application/opensearchdescription+xml" href="http://symfony.com/opensearch/documentation.xml" title="Symfony documentation">
+
+        <link rel="stylesheet" href="fuserBundle_fichiers/sln.css"><title>Getting Started With FOSUserBundle (Symfony Bundles Docs)</title>
+
+        <link rel="stylesheet" href="fuserBundle_fichiers/app.css">
+            
+    <link rel="stylesheet" href="fuserBundle_fichiers/doc.css">
+
+        <script src="fuserBundle_fichiers/manifest.js"></script>
+        <script src="fuserBundle_fichiers/app.js"></script>
+        <script>
+            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+            ga('create', 'UA-89393-6', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script async="" src="fuserBundle_fichiers/analytics.js"></script>
+            <script src="fuserBundle_fichiers/doc.js"></script>
+
+                <link rel="apple-touch-icon" type="image/png" href="http://symfony.com/apple-touch-icon.png">
+        <link rel="apple-touch-icon-precomposed" type="image/png" href="http://symfony.com/apple-touch-icon.png">
+        <meta name="apple-mobile-web-app-title" content="Symfony">
+
+                <meta name="twitter:site" content="@symfony">
+
+                <meta property="fb:pages" content="211720082183067">
+
+                            <meta property="og:type" content="website">
+            <meta property="og:title" content="Getting Started With FOSUserBundle (Symfony Bundles Docs)">
+            <meta property="og:image" content="http://symfony.com/images/v5/opengraph/symfony.png">
+
+                            <meta property="og:description" content="Getting Started With FOSUserBundle: The Symfony Security component provides a flexible security framework that allows you to load users from configuration, a database, or anywhere else you can imagine...">
+                    
+                <meta name="msapplication-TileColor" content="#222222">
+        <meta name="application-name" content="Symfony">
+        <meta name="msapplication-tooltip" content="Official Symfony website">
+
+                <meta name="theme-color" content="#222222">
+
+            </head>
+
+    <body>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebSite","name":"Symfony","url":"https:\/\/symfony.com"}</script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/symfony.com","name":"Symfony","logo":"https:\/\/symfony.com\/images\/v5\/logos\/sf-positive.svg"}</script>
+
+        <div id="sln"><div class="sln-bar"><div class="sln-bar-inner"><div class="sln-network"><a href="#" class="sln-hidden-phone">SensioLabs<span>World</span></a><a href="#" class="sln-visible-phone">SL<span>W</span></a></div> <div class="sln-ad"><a href="https://blackfire.io/" data-ga="blackfire" class="sln-visible-phone"><img src="fuserBundle_fichiers/1c5498dd-0649-4d42-af4b-1de957825f62.png">Blackfire.io</a><a href="https://blackfire.io/" data-ga="blackfire" class="sln-visible-tablet"><img src="fuserBundle_fichiers/1c5498dd-0649-4d42-af4b-1de957825f62.png">Blackfire.io: Fire up your PHP apps performance</a><a href="https://blackfire.io/" data-ga="blackfire" class="sln-visible-desktop"><img src="fuserBundle_fichiers/1c5498dd-0649-4d42-af4b-1de957825f62.png">Blackfire.io: Fire up your PHP apps performance</a></div> <div class="sln-search"><div class="sln-search-deactivated"><a href="#"><img src="fuserBundle_fichiers/search.png"></a></div><div class="sln-search-activated sln-hidden"><a href="#"><img src="fuserBundle_fichiers/search-alt.png"></a><form method="GET" action="/search"><input name="q" id="sln-autocomplete" placeholder="Search" type="text"></form></div></div> <div class="sln-user"> <a href="http://symfony.com/session/new?target=http://symfony.com/doc/master/bundles/FOSUserBundle/index.html" class="sln-connect"> Connect </a> </div>
+    </div>
+    <div class="sln-dropdown-network sln-dropdown sln-hidden"><div class="sln-container"><div class="sln-row"><div class="sln-span6"><div class="sln-row"><div class="sln-span3"><img src="fuserBundle_fichiers/sensiolabs.png" alt="SensioLabs"><p>Since
+ 1998, SensioLabs has been promoting the Open-Source software movement 
+by providing quality and performant web application development 
+products, trainings,  and consulting. SensioLabs also supports multiple 
+important Open-Source projects. <br><a data-ga="sln_learn_more" href="http://sensiolabs.com/en">Learn more</a></p><div><a data-ga="sln_sl_international" href="http://sensiolabs.com/en">International</a></div><ul class="sln-websites"><li>Local:</li><li class="first"><a data-ga="sln_sl_FR" href="http://sensiolabs.com/fr">France</a></li><li><a data-ga="sln_sl_DE" href="http://sensiolabs.de/">Germany</a></li></ul></div><div class="sln-span3 sln-ads"><h2>In the Spotlight</h2><div><a data-ga="sln_insight_thumb" href="https://insight.sensiolabs.com/"><img src="fuserBundle_fichiers/sensiolabsinsight.png" alt="SensioLabsInsight"></a></div><div><a data-ga="sln_blackfire_thumb" href="https://blackfire.io/"><img src="fuserBundle_fichiers/blackfire.png" alt="Blackfire"></a></div></div></div></div><div class="sln-span6 sln-products-listing sln-right-box"><div class="sln-row"><div class="sln-span3"><h2>Open Source</h2><ul><li><a data-ga="sln_sf" href="https://symfony.com/">Symfony - Web framework</a></li><li><a data-ga="sln_twig" href="https://twig.symfony.com/">Twig - Templating</a></li><li><a data-ga="sln_silex" href="https://silex.symfony.com/">Silex - Micro-framework</a></li><li><a data-ga="sln_swift" href="https://swiftmailer.symfony.com/">Swift Mailer - E-Mailing</a></li></ul></div><div class="sln-span3"><h2>Products</h2><ul><li><a data-ga="sln_insight" href="https://insight.sensiolabs.com/">Insight: PHP Quality</a></li><li><a data-ga="sln_profiler" href="https://blackfire.io/">Blackfire: Web App performance</a></li><li><a data-ga="sln_sensiocloud" href="https://sensio.cloud/">SensioCloud: PaaS for Symfony</a></li><li><a data-ga="sln_security_checker" href="https://security.sensiolabs.org/">Security checker</a></li></ul></div></div><div class="sln-row"><div class="sln-span3"><h2>Solutions &amp; Services</h2><ul><li><a data-ga="sln_training" href="https://training.sensiolabs.com/">Training</a></li><li><a data-ga="sln_certification" href="https://sensiolabs.com/certification">Certification</a></li><li><a data-ga="sln_services" href="https://sensiolabs.com/solutions">Technical Solutions</a></li><li><a data-ga="sln_university" href="https://sensiolabs.com/en/university/index.html">SensioLabs University</a></li><li><a data-ga="sln_experts" href="http://expert.sensiolabs.com/">Experts</a></li></ul></div><div class="sln-span3"><h2>Community</h2><ul><li><a data-ga="sln_connect" href="https://connect.sensiolabs.com/">Community</a></li><li><a data-ga="sln_live" href="http://live.symfony.com/">Conferences</a></li><li><a data-ga="sln_youtube" href="https://www.youtube.com/user/SensioLabs">Videos</a></li><li><a data-ga="sln_partners" href="https://network.sensiolabs.com/en/">Partners</a></li><li><a data-ga="sln_job_board" href="http://jobs.sensiolabs.com/">Job Board</a></li></ul></div></div></div><div class="sln-right-box sln-our-blogs"><div class="sln-row "><div class="sln-span5"><h2>Our Blogs</h2>&nbsp;&nbsp;&nbsp;
+                        <a href="https://symfony.com/blog/">Symfony</a>,
+                        <a href="https://blog.sensiolabs.com/">SensioLabs</a>,
+                        <a href="http://blog.insight.sensiolabs.com/">Insight</a>,
+                        and <a href="https://blog.blackfire.io/">Blackfire</a>.
+                    </div></div></div></div></div></div>
+    
+</div></div>
+
+                <div id="content_wrapper">
+            <header>
+                <section class="header__top">
+                    <div class="container">
+                        <div class="header__logo">
+                            <a href="http://symfony.com/">
+                                <img src="fuserBundle_fichiers/header-logo.svg" alt="Symfony">
+                            </a>
+                        </div>
+                        <div class="hidden-xs">
+                            <a href="https://sensiolabs.com/" title="SensioLabs, PHP services and software solutions for enterprise and community.">
+                                <img src="fuserBundle_fichiers/slproduct.svg" alt="Symfony is a SensioLabs product" height="15">
+                            </a>
+                        </div>
+                        <div class="visible-xs">
+                            <a href="#" class="header__toggle__menu">
+                                <i class="icon icon--large icon--white"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 1344v128q0 26-19 45t-45 19H192q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19H192q-26 0-45-19t-19-45V832q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19H192q-26 0-45-19t-19-45V320q0-26 19-45t45-19h1408q26 0 45 19t19 45z"></path></svg></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="header__bottom affix" data-spy="affix" data-offset-top="90">
+                    <div class="container">
+                        <nav class="header__nav">
+                            <ul>
+                                <li class="header__logo--responsive">
+                                    <a href="http://symfony.com/"><img src="fuserBundle_fichiers/sf-positive.svg"></a>
+                                </li>
+
+                                
+    <li>
+        <a href="http://symfony.com/what-is-symfony">What is Symfony?</a>
+    </li>
+    <li class="selected">
+        <a href="http://symfony.com/doc/current/index.html">Documentation</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/community">Community</a>
+    </li>
+    <li>
+        <a href="https://sensiolabs.com/">Business Solutions</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/blog/">News</a>
+    </li>
+
+                                <li class="hidden-xs header__download">
+                                    <a href="http://symfony.com/download">Download</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+            </header>
+
+                        <div class="container">
+                                    <div class="row">
+                        <aside class="col-sm-3">
+                                                                
+            <div class="hidden-xs m-b-30 doc__nav">
+        <div class="panel">
+            <div class="panel-heading">
+                <a data-toggle="collapse" href="#doc-menu-1" class="collapsed">Getting Started <i class="icon icon--small icon--gray pull-right"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1363 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45L531 45q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"></path></svg></i></a>
+            </div>
+            <div id="doc-menu-1" class="panel-collapse collapse ">
+                <div class="panel-body">
+                    
+
+    <ul class="list--unstyled">
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/setup.html">
+                    Setup
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/page_creation.html">
+                    Creating Pages
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/routing.html">
+                    Routing
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/controller.html">
+                    Controllers
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/templating.html">
+                    Templates
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/configuration.html">
+                    Configuration
+                </a>
+            </li>
+            </ul>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-heading">
+                <a data-toggle="collapse" href="#doc-menu-2" class="collapsed">Guides <i class="icon icon--small icon--gray pull-right"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1363 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45L531 45q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"></path></svg></i></a>
+            </div>
+            <div id="doc-menu-2" class="panel-collapse collapse">
+                <div class="panel-body">
+                    
+
+    <ul class="">
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/bundles.html">
+                    Bundles
+                </a>
+            </li>
+                    <li class="">
+                                <a class="important" href="http://symfony.com/doc/2.0/console.html">
+                    Console
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/contributing/index.html">
+                    Contributing
+                </a>
+            </li>
+                    <li class="">
+                                <a class="very-important" href="http://symfony.com/doc/2.0/doctrine.html">
+                    Databases (Doctrine ORM)
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/deployment.html">
+                    Deployment
+                </a>
+            </li>
+                    <li class="">
+                                <a class="important" href="http://symfony.com/doc/2.0/email.html">
+                    Email
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/event_dispatcher.html">
+                    Event Dispatcher
+                </a>
+            </li>
+                    <li class="">
+                                <a class="important" href="http://symfony.com/doc/2.0/setup/flex.html">
+                    Flex
+                </a>
+            </li>
+                    <li class="">
+                                <a class="very-important" href="http://symfony.com/doc/2.0/forms.html">
+                    Forms
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/frontend.html">
+                    Front-end
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/http_cache.html">
+                    HTTP Cache
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/logging.html">
+                    Logging
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/performance.html">
+                    Performance
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/profiler.html">
+                    Profiler
+                </a>
+            </li>
+                    <li class="">
+                                <a class="important" href="http://symfony.com/doc/2.0/security.html">
+                    Security
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/serializer.html">
+                    Serializer
+                </a>
+            </li>
+                    <li class="">
+                                <a class="very-important" href="http://symfony.com/doc/2.0/service_container.html">
+                    Service Container
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/session.html">
+                    Sessions
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/testing.html">
+                    Testing
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/translation.html">
+                    Translation (i18n)
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/validation.html">
+                    Validation
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/workflow.html">
+                    Workflow
+                </a>
+            </li>
+            </ul>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-heading">
+                <a data-toggle="collapse" href="#doc-menu-3" class="collapsed">Components <i class="icon icon--small icon--gray pull-right"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1363 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45L531 45q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"></path></svg></i></a>
+            </div>
+            <div id="doc-menu-3" class="panel-collapse collapse">
+                <div class="panel-body">
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                            
+            <ul class="">
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/asset.html">
+                    Asset
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/browser_kit.html">
+                    BrowserKit
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/cache.html">
+                    Cache
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/class_loader.html">
+                    ClassLoader
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/config.html">
+                    Config
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/console.html">
+                    Console
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/css_selector.html">
+                    CssSelector
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/debug.html">
+                    Debug
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/dependency_injection.html">
+                    DependencyInjection
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/dom_crawler.html">
+                    DomCrawler
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/dotenv.html">
+                    Dotenv
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/event_dispatcher.html">
+                    EventDispatcher
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/expression_language.html">
+                    ExpressionLanguage
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/filesystem.html">
+                    Filesystem
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/finder.html">
+                    Finder
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/form.html">
+                    Form
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/http_foundation.html">
+                    HttpFoundation
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/http_kernel.html">
+                    HttpKernel
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/intl.html">
+                    Intl
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/ldap.html">
+                    Ldap
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/lock.html">
+                    Lock
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/options_resolver.html">
+                    OptionsResolver
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/phpunit_bridge.html">
+                    PHPUnit Bridge
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/process.html">
+                    Process
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/property_access.html">
+                    PropertyAccess
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/property_info.html">
+                    PropertyInfo
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/routing.html">
+                    Routing
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/security.html">
+                    Security
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/serializer.html">
+                    Serializer
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/stopwatch.html">
+                    Stopwatch
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/templating.html">
+                    Templating
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/translation.html">
+                    Translation
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/validator.html">
+                    Validator
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/var_dumper.html">
+                    VarDumper
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/workflow.html">
+                    Workflow
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/2.0/components/yaml.html">
+                    Yaml
+                </a>
+            </li>
+            </ul>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-heading">
+                <a class="collapsed" href="https://training.sensiolabs.com/en/courses?q=symfony">Training</a>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-heading">
+                <a class="collapsed" href="https://certification.symfony.com/">Certification</a>
+            </div>
+        </div>
+    </div>
+
+
+                                                                <div class="ads m-b-30">
+            <div class="ad m-b-15" id="ad_trainings_1">
+            <h3>
+                <a href="https://training.sensiolabs.com/en/courses?q=symfony" data-tracked="" data-category="Ads" data-action="Ads" data-label="trainings_1">
+                    Master Symfony fundamentals
+                </a>
+            </h3>
+            <div>Be trained by SensioLabs experts (2 to 6 day sessions -- French or English).</div>
+            <div><cite>training.sensiolabs.com</cite></div>
+        </div>
+            <div class="ad m-b-15" id="ad_support_1">
+            <h3>
+                <a href="https://sensiolabs.com/en/packaged-solutions/index.html" data-tracked="" data-category="Ads" data-action="Ads" data-label="support_1">
+                    Discover SensioLabs' Professional Business Solutions
+                </a>
+            </h3>
+            <div>Peruse our complete Symfony &amp; PHP solutions catalog for your web development needs.</div>
+            <div><cite>sensiolabs.com</cite></div>
+        </div>
+    </div>
+
+<div class="ads">
+    <a href="https://blackfire.io/24-days" data-tracked="" data-category="Ads" data-action="sidebar" data-label="blackfire">
+        <img src="fuserBundle_fichiers/blackfire-profiler.png" class="m-b-15 img-responsive" alt="Blackfire Profiler Fire up your PHP Apps Performance">
+    </a>
+
+    <a href="https://insight.sensiolabs.com/" data-tracked="" data-category="Ads" data-action="sidebar" data-label="insight">
+        <img src="fuserBundle_fichiers/sensiolabsinsight_002.png" class="img-responsive" alt="PHP Project Quality Done Right">
+    </a>
+</div>
+                                                    </aside>
+
+                        <main class="col-sm-9">
+                                                                        
+                                                            <ol class="breadcrumb">
+                                                                                    <li class="">
+                                                                                                <a href="http://symfony.com/">Home</a>
+                                            </li>
+                                                                                    <li class="">
+                                                                                                <a href="http://symfony.com/doc/current/index.html">Documentation</a>
+                                            </li>
+                                                                                    <li class="">
+                                                                                                <a href="http://symfony.com/doc/bundles/">Bundles</a>
+                                            </li>
+                                                                                    <li class="">
+                                                                                                <a href="http://symfony.com/doc/master/bundles/FOSUserBundle/index.html">FOSUserBundle</a>
+                                            </li>
+                                                                            </ol>
+
+                                    <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"\/doc\/current\/index.html","name":"Documentation"}},{"@type":"ListItem","position":3,"item":{"@id":"\/doc\/bundles\/","name":"Bundles"}},{"@type":"ListItem","position":4,"item":{"@id":"\/doc\/master\/bundles\/FOSUserBundle\/index.html","name":"FOSUserBundle"}}]}</script>
+                                
+                                    
+    
+    
+                                                                    <h1>Getting Started With FOSUserBundle</h1>
+                                
+                                    
+    <div class="page">
+        
+        <div class="doc__tools clearfix">
+                            <div class="doc__version">
+    <div class="version__current">
+        2.0 version
+        <i class="pull-right icon icon--small icon--white"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1408 704q0 26-19 45l-448 448q-19 19-45 19t-45-19L403 749q-19-19-19-45t19-45 45-19h896q26 0 45 19t19 45z"></path></svg></i>    </div>
+
+            <div class="version__all version__all--narrow">
+                            <strong>Maintained</strong>
+                <div class="version__list">
+                                            <a href="http://symfony.com/doc/1.3.x/bundles/FOSUserBundle/index.html">
+                            1.3.x
+                                                            <small>current</small>
+                                                    </a>
+                                    </div>
+            
+                    </div>
+    </div>
+
+            
+                            <div class="doc__edit">
+                    <a href="https://github.com/FriendsOfSymfony/FOSUserBundle/edit/master/Resources/doc/index.rst">edit this page</a>
+                </div>
+                    </div>
+
+        <div class="section" id="getting-started-with-fosuserbundle">
+<h1>Getting Started With FOSUserBundle<a class="headerlink" href="#getting-started-with-fosuserbundle" title="Permalink to this headline">¶</a></h1>
+<p>The Symfony Security component provides a flexible security framework that
+allows you to load users from configuration, a database, or anywhere else
+you can imagine. The FOSUserBundle builds on top of this to make it quick
+and easy to store users in a database, as well as functionality for registration,
+reset password and a profile page.</p>
+<p>So, if you need to persist and fetch the users in your system to and from
+a database, then you're in the right place.</p>
+<p>For a video tutorial, check out <a class="reference external" href="https://knpuniversity.com/screencast/fosuserbundle">FOSUserBundle FTW</a> by KnpUniversity.</p>
+<div class="section" id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
+<p>This version of the bundle requires Symfony 2.8+. If you are using an older
+Symfony version, please use the 1.3.x releases of the bundle.</p>
+<div class="section" id="translations">
+<h3>Translations<a class="headerlink" href="#translations" title="Permalink to this headline">¶</a></h3>
+<p>If you wish to use default texts provided in this bundle, you have to make
+sure you have translator enabled in your config.</p>
+<div class="literal-block notranslate"><div class="highlight-yaml"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="highlight"><pre><span class="c1"># app/config/config.yml</span>
+
+<span class="l-Scalar-Plain">framework</span><span class="p-Indicator">:</span>
+    <span class="l-Scalar-Plain">translator</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">~</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+<p>For more information about translations, check <a class="reference external" href="https://symfony.com/doc/current/book/translation.html">Symfony documentation</a>.</p>
+</div>
+</div>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>Installation is a quick (I promise!) 7 step process:</p>
+<ol class="arabic simple">
+<li>Download FOSUserBundle using composer</li>
+<li>Enable the Bundle</li>
+<li>Create your User class</li>
+<li>Configure your application's security.yml</li>
+<li>Configure the FOSUserBundle</li>
+<li>Import FOSUserBundle routing</li>
+<li>Update your database schema</li>
+</ol>
+<div class="section" id="step-1-download-fosuserbundle-using-composer">
+<h3>Step 1: Download FOSUserBundle using composer<a class="headerlink" href="#step-1-download-fosuserbundle-using-composer" title="Permalink to this headline">¶</a></h3>
+<p>Require the bundle with composer:</p>
+<div class="literal-block notranslate"><div class="highlight-bash"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>composer require friendsofsymfony/user-bundle <span class="s2">"~2.0"</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+<p>Composer will install the bundle to your project's <code class="notranslate">vendor/friendsofsymfony/user-bundle</code> directory.
+If you encounter installation errors pointing at a lack of configuration parameters, such as <code class="notranslate">The child node "db_driver" at path "fos_user" must be configured</code>, you should complete the configuration in Step 5 first and then re-run this step.</p>
+</div>
+<div class="section" id="step-2-enable-the-bundle">
+<h3>Step 2: Enable the bundle<a class="headerlink" href="#step-2-enable-the-bundle" title="Permalink to this headline">¶</a></h3>
+<p>Enable the bundle in the kernel:</p>
+<div class="literal-block notranslate"><div class="highlight-php"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">&lt;?</span><span class="nx">php</span>
+<span class="c1">// app/AppKernel.php</span>
+
+<span class="k">public</span> <span class="k">function</span> <span class="nf">registerBundles</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="nv">$bundles</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
+        <span class="c1">// ...</span>
+        <span class="k">new</span> <span class="nx">FOS\UserBundle\FOSUserBundle</span><span class="p">(),</span>
+        <span class="c1">// ...</span>
+    <span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+</div>
+<div class="section" id="step-3-create-your-user-class">
+<h3>Step 3: Create your User class<a class="headerlink" href="#step-3-create-your-user-class" title="Permalink to this headline">¶</a></h3>
+<p>The goal of this bundle is to persist some <code class="notranslate">User</code> class to a database (MySql,
+MongoDB, CouchDB, etc). Your first job, then, is to create the <code class="notranslate">User</code> class
+for your application. This class can look and act however you want: add any
+properties or methods you find useful. This is <em>your</em> <code class="notranslate">User</code> class.</p>
+<p>The bundle provides base classes which are already mapped for most fields
+to make it easier to create your entity. Here is how you use it:</p>
+<ol class="arabic simple">
+<li>Extend the base <code class="notranslate">User</code> class (from the <code class="notranslate">Model</code> folder if you are using
+any of the doctrine variants)</li>
+<li>Map the <code class="notranslate">id</code> field. It must be protected as it is inherited from the parent class.</li>
+</ol>
+<div class="admonition-wrapper">
+<div class="caution"></div><div class="admonition admonition-caution"><p class="first admonition-title">Caution</p>
+<p class="last">When you extend from the mapped superclass provided by the bundle, don't
+redefine the mapping for the other fields as it is provided by the bundle.</p>
+</div></div>
+<p>In the following sections, you'll see examples of how your <code class="notranslate">User</code> class should
+look, depending on how you're storing your users (Doctrine ORM, MongoDB ODM,
+or CouchDB ODM).</p>
+<div class="admonition-wrapper">
+<div class="note"></div><div class="admonition admonition-note"><p class="first admonition-title">Note</p>
+<p class="last">The doc uses a bundle named <code class="notranslate">AppBundle</code> according to the Symfony best
+practices. However, you can of course place your user class in the bundle
+you want.</p>
+</div></div>
+<div class="admonition-wrapper">
+<div class="caution"></div><div class="admonition admonition-caution"><p class="first admonition-title">Caution</p>
+<p class="last">If you override the __construct() method in your User class, be sure
+to call parent::__construct(), as the base User class depends on
+this to initialize some fields.</p>
+</div></div>
+<div class="section" id="a-doctrine-orm-user-class">
+<h4>a) Doctrine ORM User class<a class="headerlink" href="#a-doctrine-orm-user-class" title="Permalink to this headline">¶</a></h4>
+<p>If you're persisting your users via the Doctrine ORM, then your <code class="notranslate">User</code> class
+should live in the <code class="notranslate">Entity</code> namespace of your bundle and look like this to
+start:</p>
+<div class="configuration-block jsactive clearfix">
+<ul class="simple" style="height: 619.6px;">
+<li class="selected"><em><a href="#">Annotations</a></em><div class="literal-block notranslate"><div class="highlight-php-annotations" style=""><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">&lt;?</span><span class="nx">php</span>
+<span class="c1">// src/AppBundle/Entity/User.php</span>
+
+<span class="k">namespace</span> <span class="nx">AppBundle\Entity</span><span class="p">;</span>
+
+<span class="k">use</span> <span class="nx">FOS\UserBundle\Model\User</span> <span class="k">as</span> <span class="nx">BaseUser</span><span class="p">;</span>
+<span class="k">use</span> <span class="nx">Doctrine\ORM\Mapping</span> <span class="k">as</span> <span class="nx">ORM</span><span class="p">;</span>
+
+<span class="sd">/**</span>
+<span class="sd"> * @ORM\Entity</span>
+<span class="sd"> * @ORM\Table(name="fos_user")</span>
+<span class="sd"> */</span>
+<span class="k">class</span> <span class="nc">User</span> <span class="k">extends</span> <span class="nx">BaseUser</span>
+<span class="p">{</span>
+    <span class="sd">/**</span>
+<span class="sd">     * @ORM\Id</span>
+<span class="sd">     * @ORM\Column(type="integer")</span>
+<span class="sd">     * @ORM\GeneratedValue(strategy="AUTO")</span>
+<span class="sd">     */</span>
+    <span class="k">protected</span> <span class="nv">$id</span><span class="p">;</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">__construct</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">parent</span><span class="o">::</span><span class="na">__construct</span><span class="p">();</span>
+        <span class="c1">// your own logic</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+</li>
+<li><em><a href="#">YAML</a></em><div class="literal-block notranslate"><div class="highlight-yaml" style="display: none;"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9</pre></div></td><td class="code"><div class="highlight"><pre><span class="c1"># src/AppBundle/Resources/config/doctrine/User.orm.yml</span>
+<span class="l-Scalar-Plain">AppBundle\Entity\User</span><span class="p-Indicator">:</span>
+    <span class="l-Scalar-Plain">type</span><span class="p-Indicator">:</span>  <span class="l-Scalar-Plain">entity</span>
+    <span class="l-Scalar-Plain">table</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">fos_user</span>
+    <span class="l-Scalar-Plain">id</span><span class="p-Indicator">:</span>
+        <span class="l-Scalar-Plain">id</span><span class="p-Indicator">:</span>
+            <span class="l-Scalar-Plain">type</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">integer</span>
+            <span class="l-Scalar-Plain">generator</span><span class="p-Indicator">:</span>
+                <span class="l-Scalar-Plain">strategy</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">AUTO</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+</li>
+<li><em><a href="#">XML</a></em><div class="literal-block notranslate"><div class="highlight-xml" style="display: none;"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12</pre></div></td><td class="code"><div class="highlight"><pre><span class="cp">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span>
+<span class="c">&lt;!-- src/AppBundle/Resources/config/doctrine/User.orm.xml --&gt;</span>
+<span class="nt">&lt;doctrine-mapping</span> <span class="na">xmlns=</span><span class="s">"http://doctrine-project.org/schemas/orm/doctrine-mapping"</span>
+    <span class="na">xmlns:xsi=</span><span class="s">"http://www.w3.org/2001/XMLSchema-instance"</span>
+    <span class="na">xsi:schemaLocation=</span><span class="s">"http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd"</span><span class="nt">&gt;</span>
+
+    <span class="nt">&lt;entity</span> <span class="na">name=</span><span class="s">"AppBundle\Entity\User"</span> <span class="na">table=</span><span class="s">"fos_user"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;id</span> <span class="na">name=</span><span class="s">"id"</span> <span class="na">type=</span><span class="s">"integer"</span> <span class="na">column=</span><span class="s">"id"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;generator</span> <span class="na">strategy=</span><span class="s">"AUTO"</span><span class="nt">/&gt;</span>
+        <span class="nt">&lt;/id&gt;</span>
+    <span class="nt">&lt;/entity&gt;</span>
+<span class="nt">&lt;/doctrine-mapping&gt;</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+</li>
+</ul>
+</div>
+<div class="admonition-wrapper">
+<div class="caution"></div><div class="admonition admonition-caution"><p class="first admonition-title">Caution</p>
+<p class="last"><code class="notranslate">user</code> is a reserved keyword in the SQL standard. If you need to use reserved words, surround them with backticks, <em>e.g.</em> <code class="notranslate">@ORM\Table(name="`user`")</code></p>
+</div></div>
+</div>
+<div class="section" id="b-mongodb-user-class">
+<h4>b) MongoDB User class<a class="headerlink" href="#b-mongodb-user-class" title="Permalink to this headline">¶</a></h4>
+<p>If you're persisting your users via the Doctrine MongoDB ODM, then your <code class="notranslate">User</code>
+class should live in the <code class="notranslate">Document</code> namespace of your bundle and look like
+this to start:</p>
+<div class="literal-block notranslate"><div class="highlight-php"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">&lt;?</span><span class="nx">php</span>
+<span class="c1">// src/AppBundle/Document/User.php</span>
+
+<span class="k">namespace</span> <span class="nx">AppBundle\Document</span><span class="p">;</span>
+
+<span class="k">use</span> <span class="nx">FOS\UserBundle\Model\User</span> <span class="k">as</span> <span class="nx">BaseUser</span><span class="p">;</span>
+<span class="k">use</span> <span class="nx">Doctrine\ODM\MongoDB\Mapping\Annotations</span> <span class="k">as</span> <span class="nx">MongoDB</span><span class="p">;</span>
+
+<span class="sd">/**</span>
+<span class="sd"> * @MongoDB\Document</span>
+<span class="sd"> */</span>
+<span class="k">class</span> <span class="nc">User</span> <span class="k">extends</span> <span class="nx">BaseUser</span>
+<span class="p">{</span>
+    <span class="sd">/**</span>
+<span class="sd">     * @MongoDB\Id(strategy="auto")</span>
+<span class="sd">     */</span>
+    <span class="k">protected</span> <span class="nv">$id</span><span class="p">;</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">__construct</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">parent</span><span class="o">::</span><span class="na">__construct</span><span class="p">();</span>
+        <span class="c1">// your own logic</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+</div>
+<div class="section" id="c-couchdb-user-class">
+<h4>c) CouchDB User class<a class="headerlink" href="#c-couchdb-user-class" title="Permalink to this headline">¶</a></h4>
+<p>If you're persisting your users via the Doctrine CouchDB ODM, then your <code class="notranslate">User</code>
+class should live in the <code class="notranslate">CouchDocument</code> namespace of your bundle and look
+like this to start:</p>
+<div class="literal-block notranslate"><div class="highlight-php"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">&lt;?</span><span class="nx">php</span>
+<span class="c1">// src/AppBundle/CouchDocument/User.php</span>
+
+<span class="k">namespace</span> <span class="nx">AppBundle\CouchDocument</span><span class="p">;</span>
+
+<span class="k">use</span> <span class="nx">FOS\UserBundle\Model\User</span> <span class="k">as</span> <span class="nx">BaseUser</span><span class="p">;</span>
+<span class="k">use</span> <span class="nx">Doctrine\ODM\CouchDB\Mapping\Annotations</span> <span class="k">as</span> <span class="nx">CouchDB</span><span class="p">;</span>
+
+<span class="sd">/**</span>
+<span class="sd"> * @CouchDB\Document</span>
+<span class="sd"> */</span>
+<span class="k">class</span> <span class="nc">User</span> <span class="k">extends</span> <span class="nx">BaseUser</span>
+<span class="p">{</span>
+    <span class="sd">/**</span>
+<span class="sd">     * @CouchDB\Id</span>
+<span class="sd">     */</span>
+    <span class="k">protected</span> <span class="nv">$id</span><span class="p">;</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">__construct</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">parent</span><span class="o">::</span><span class="na">__construct</span><span class="p">();</span>
+        <span class="c1">// your own logic</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+</div>
+</div>
+<div class="section" id="step-4-configure-your-application-s-security-yml">
+<h3>Step 4: Configure your application's security.yml<a class="headerlink" href="#step-4-configure-your-application-s-security-yml" title="Permalink to this headline">¶</a></h3>
+<p>In order for Symfony's security component to use the FOSUserBundle, you must
+tell it to do so in the <code class="notranslate">security.yml</code> file. The <code class="notranslate">security.yml</code> file is where the
+basic security configuration for your application is contained.</p>
+<p>Below is a minimal example of the configuration necessary to use the FOSUserBundle
+in your application:</p>
+<div class="literal-block notranslate"><div class="highlight-yaml"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28</pre></div></td><td class="code"><div class="highlight"><pre><span class="c1"># app/config/security.yml</span>
+<span class="l-Scalar-Plain">security</span><span class="p-Indicator">:</span>
+    <span class="l-Scalar-Plain">encoders</span><span class="p-Indicator">:</span>
+        <span class="l-Scalar-Plain">FOS\UserBundle\Model\UserInterface</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">bcrypt</span>
+
+    <span class="l-Scalar-Plain">role_hierarchy</span><span class="p-Indicator">:</span>
+        <span class="l-Scalar-Plain">ROLE_ADMIN</span><span class="p-Indicator">:</span>       <span class="l-Scalar-Plain">ROLE_USER</span>
+        <span class="l-Scalar-Plain">ROLE_SUPER_ADMIN</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">ROLE_ADMIN</span>
+
+    <span class="l-Scalar-Plain">providers</span><span class="p-Indicator">:</span>
+        <span class="l-Scalar-Plain">fos_userbundle</span><span class="p-Indicator">:</span>
+            <span class="l-Scalar-Plain">id</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">fos_user.user_provider.username</span>
+
+    <span class="l-Scalar-Plain">firewalls</span><span class="p-Indicator">:</span>
+        <span class="l-Scalar-Plain">main</span><span class="p-Indicator">:</span>
+            <span class="l-Scalar-Plain">pattern</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">^/</span>
+            <span class="l-Scalar-Plain">form_login</span><span class="p-Indicator">:</span>
+                <span class="l-Scalar-Plain">provider</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">fos_userbundle</span>
+                <span class="l-Scalar-Plain">csrf_token_generator</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">security.csrf.token_manager</span>
+
+            <span class="l-Scalar-Plain">logout</span><span class="p-Indicator">:</span>       <span class="l-Scalar-Plain">true</span>
+            <span class="l-Scalar-Plain">anonymous</span><span class="p-Indicator">:</span>    <span class="l-Scalar-Plain">true</span>
+
+    <span class="l-Scalar-Plain">access_control</span><span class="p-Indicator">:</span>
+        <span class="p-Indicator">-</span> <span class="p-Indicator">{</span> <span class="nv">path</span><span class="p-Indicator">:</span> <span class="nv">^/login$</span><span class="p-Indicator">,</span> <span class="nv">role</span><span class="p-Indicator">:</span> <span class="nv">IS_AUTHENTICATED_ANONYMOUSLY</span> <span class="p-Indicator">}</span>
+        <span class="p-Indicator">-</span> <span class="p-Indicator">{</span> <span class="nv">path</span><span class="p-Indicator">:</span> <span class="nv">^/register</span><span class="p-Indicator">,</span> <span class="nv">role</span><span class="p-Indicator">:</span> <span class="nv">IS_AUTHENTICATED_ANONYMOUSLY</span> <span class="p-Indicator">}</span>
+        <span class="p-Indicator">-</span> <span class="p-Indicator">{</span> <span class="nv">path</span><span class="p-Indicator">:</span> <span class="nv">^/resetting</span><span class="p-Indicator">,</span> <span class="nv">role</span><span class="p-Indicator">:</span> <span class="nv">IS_AUTHENTICATED_ANONYMOUSLY</span> <span class="p-Indicator">}</span>
+        <span class="p-Indicator">-</span> <span class="p-Indicator">{</span> <span class="nv">path</span><span class="p-Indicator">:</span> <span class="nv">^/admin/</span><span class="p-Indicator">,</span> <span class="nv">role</span><span class="p-Indicator">:</span> <span class="nv">ROLE_ADMIN</span> <span class="p-Indicator">}</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+<p>Under the <code class="notranslate">providers</code> section, you are making the bundle's packaged user provider
+service available via the alias <code class="notranslate">fos_userbundle</code>. The id of the bundle's user
+provider service is <code class="notranslate">fos_user.user_provider.username</code>.</p>
+<p>Next, take a look at and examine the <code class="notranslate">firewalls</code> section. Here we have
+declared a firewall named <code class="notranslate">main</code>. By specifying <code class="notranslate">form_login</code>, you have
+told the Symfony Framework that any time a request is made to this firewall
+that leads to the user needing to authenticate himself, the user will be
+redirected to a form where he will be able to enter his credentials. It should
+come as no surprise then that you have specified the user provider service
+we declared earlier as the provider for the firewall to use as part of the
+authentication process.</p>
+<div class="admonition-wrapper">
+<div class="note"></div><div class="admonition admonition-note"><p class="first admonition-title">Note</p>
+<p class="last">Although we have used the form login mechanism in this example, the FOSUserBundle
+user provider service is compatible with many other authentication methods
+as well. Please read the Symfony Security component documentation for
+more information on the other types of authentication methods.</p>
+</div></div>
+<p>The <code class="notranslate">access_control</code> section is where you specify the credentials necessary for
+users trying to access specific parts of your application. The bundle requires
+that the login form and all the routes used to create a user and reset the password
+be available to unauthenticated users but use the same firewall as
+the pages you want to secure with the bundle. This is why you have specified that
+any request matching the <code class="notranslate">/login</code> pattern or starting with <code class="notranslate">/register</code> or
+<code class="notranslate">/resetting</code> have been made available to anonymous users. You have also specified
+that any request beginning with <code class="notranslate">/admin</code> will require a user to have the
+<code class="notranslate">ROLE_ADMIN</code> role.</p>
+<p>For more information on configuring the <code class="notranslate">security.yml</code> file please read the Symfony
+<a class="reference external" href="https://symfony.com/doc/current/book/security.html">security component documentation</a>.</p>
+<div class="admonition-wrapper">
+<div class="note"></div><div class="admonition admonition-note"><p class="first admonition-title">Note</p>
+<p class="last">Pay close attention to the name, <code class="notranslate">main</code>, that we have given to the
+firewall which the FOSUserBundle is configured in. You will use this
+in the next step when you configure the FOSUserBundle.</p>
+</div></div>
+</div>
+<div class="section" id="step-5-configure-the-fosuserbundle">
+<h3>Step 5: Configure the FOSUserBundle<a class="headerlink" href="#step-5-configure-the-fosuserbundle" title="Permalink to this headline">¶</a></h3>
+<p>Now that you have properly configured your application's <code class="notranslate">security.yml</code> to work
+with the FOSUserBundle, the next step is to configure the bundle to work with
+the specific needs of your application.</p>
+<p>Add the following configuration to your <code class="notranslate">config.yml</code> file according to which type
+of datastore you are using.</p>
+<div class="configuration-block jsactive clearfix">
+<ul class="simple" style="height: 224.4px;">
+<li class="selected"><em><a href="#">YAML</a></em><div class="literal-block notranslate"><div class="highlight-yaml" style=""><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="highlight"><pre><span class="c1"># app/config/config.yml</span>
+<span class="l-Scalar-Plain">fos_user</span><span class="p-Indicator">:</span>
+    <span class="l-Scalar-Plain">db_driver</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">orm</span> <span class="c1"># other valid values are 'mongodb' and 'couchdb'</span>
+    <span class="l-Scalar-Plain">firewall_name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">main</span>
+    <span class="l-Scalar-Plain">user_class</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">AppBundle\Entity\User</span>
+    <span class="l-Scalar-Plain">from_email</span><span class="p-Indicator">:</span>
+        <span class="l-Scalar-Plain">address</span><span class="p-Indicator">:</span> <span class="s">"%mailer_user%"</span>
+        <span class="l-Scalar-Plain">sender_name</span><span class="p-Indicator">:</span> <span class="s">"%mailer_user%"</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+</li>
+<li><em><a href="#">XML</a></em><div class="literal-block notranslate"><div class="highlight-xml" style="display: none;"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">&lt;!-- app/config/config.xml --&gt;</span>
+
+<span class="c">&lt;!-- other valid 'db-driver' values are 'mongodb' and 'couchdb' --&gt;</span>
+<span class="nt">&lt;fos_user:config</span>
+    <span class="na">db-driver=</span><span class="s">"orm"</span>
+    <span class="na">firewall-name=</span><span class="s">"main"</span>
+    <span class="na">user-class=</span><span class="s">"AppBundle\Entity\User"</span>
+<span class="nt">/&gt;</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+</li>
+</ul>
+</div>
+<p>Only four configuration's node are required to use the bundle:</p>
+<ul class="simple">
+<li>The type of datastore you are using (<code class="notranslate">orm</code>, <code class="notranslate">mongodb</code> or <code class="notranslate">couchdb</code>).</li>
+<li>The firewall name which you configured in Step 4.</li>
+<li>The fully qualified class name (FQCN) of the <code class="notranslate">User</code> class which you created in Step 3.</li>
+<li>The default email address to use when the bundle send a registration confirmation to the user.</li>
+</ul>
+<div class="admonition-wrapper">
+<div class="note"></div><div class="admonition admonition-note"><p class="first admonition-title">Note</p>
+<p class="last">FOSUserBundle uses a compiler pass to register mappings for the base
+User and Group model classes with the object manager that you configured
+it to use. (Unless specified explicitly, this is the default manager
+of your doctrine configuration.)</p>
+</div></div>
+</div>
+<div class="section" id="step-6-import-fosuserbundle-routing-files">
+<h3>Step 6: Import FOSUserBundle routing files<a class="headerlink" href="#step-6-import-fosuserbundle-routing-files" title="Permalink to this headline">¶</a></h3>
+<p>Now that you have activated and configured the bundle, all that is left to do is
+import the FOSUserBundle routing files.</p>
+<p>By importing the routing files you will have ready made pages for things such as
+logging in, creating users, etc.</p>
+<div class="configuration-block jsactive clearfix">
+<ul class="simple" style="height: 120.4px;">
+<li class="selected"><em><a href="#">YAML</a></em><div class="literal-block notranslate"><div class="highlight-yaml" style=""><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="highlight"><pre><span class="c1"># app/config/routing.yml</span>
+<span class="l-Scalar-Plain">fos_user</span><span class="p-Indicator">:</span>
+    <span class="l-Scalar-Plain">resource</span><span class="p-Indicator">:</span> <span class="s">"@FOSUserBundle/Resources/config/routing/all.xml"</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+</li>
+<li><em><a href="#">XML</a></em><div class="literal-block notranslate"><div class="highlight-xml" style="display: none;"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">&lt;!-- app/config/routing.xml --&gt;</span>
+<span class="nt">&lt;import</span> <span class="na">resource=</span><span class="s">"@FOSUserBundle/Resources/config/routing/all.xml"</span><span class="nt">/&gt;</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+</li>
+</ul>
+</div>
+<div class="admonition-wrapper">
+<div class="note"></div><div class="admonition admonition-note"><p class="first admonition-title">Note</p>
+<p class="last">In order to use the built-in email functionality (confirmation of the account,
+resetting of the password), you must activate and configure the SwiftmailerBundle.</p>
+</div></div>
+</div>
+<div class="section" id="step-7-update-your-database-schema">
+<h3>Step 7: Update your database schema<a class="headerlink" href="#step-7-update-your-database-schema" title="Permalink to this headline">¶</a></h3>
+<p>Now that the bundle is configured, the last thing you need to do is update your
+database schema because you have added a new entity, the <code class="notranslate">User</code> class which you
+created in Step 4.</p>
+<p>For ORM run the following command.</p>
+<div class="literal-block notranslate"><div class="highlight-bash"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>php bin/console doctrine:schema:update --force
+</pre></div>
+</td></tr></tbody></table></div></div>
+<p>For MongoDB users you can run the following command to create the indexes.</p>
+<div class="literal-block notranslate"><div class="highlight-bash"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>php bin/console doctrine:mongodb:schema:create --index
+</pre></div>
+</td></tr></tbody></table></div></div>
+<div class="admonition-wrapper">
+<div class="note"></div><div class="admonition admonition-note"><p class="first admonition-title">Note</p>
+<p class="last">If you use the Symfony 2.x structure in your project, use <code class="notranslate">app/console</code>
+instead of <code class="notranslate">bin/console</code> in the commands.</p>
+</div></div>
+<p>You now can log in at <code class="notranslate">http://app.com/app_dev.php/login</code>!</p>
+</div>
+<div class="section" id="next-steps">
+<h3>Next Steps<a class="headerlink" href="#next-steps" title="Permalink to this headline">¶</a></h3>
+<p>Now that you have completed the basic installation and configuration of the
+FOSUserBundle, you are ready to learn about more advanced features and usages
+of the bundle.</p>
+<p>The following documents are available:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/overriding_templates.html">Overriding Default FOSUserBundle Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/controller_events.html">Hooking into the controllers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/overriding_forms.html">Overriding Default FOSUserBundle Forms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/user_manager.html">About FOSUserBundle User Manager</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/command_line_tools.html">FOSUserBundle Command Line Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/logging_by_username_or_email.html">Logging by Username or Email</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/form_type.html">The username Form Type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/emails.html">FOSUserBundle Emails</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/groups.html">Using Groups With FOSUserBundle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/doctrine.html">More about Doctrine implementations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/overriding_validation.html">Overriding Default FOSUserBundle Validation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/canonicalizer.html">FOSUserBundle Canonicalization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/custom_storage_layer.html">Using a custom storage layer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/routing.html">Advanced routing configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/configuration_reference.html">FOSUserBundle Configuration Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/master/bundles/FOSUserBundle/adding_invitation_registration.html">FOSUserBundle Invitation</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+
+    <div class="m-t-30">
+    <p class="text-muted">
+        This work, including the code samples, is licensed under a
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons BY-SA 3.0</a>
+        license.
+    </p>
+</div>
+
+                                                    </main>
+                    </div>
+                            </div>
+            
+                            <footer>
+    <section class="promos">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 m-b-30">
+                    <h4 class="text-accent">News from the Symfony blog</h4>
+
+                    <ul class="list--unstyled list--border">
+                                                    <li>
+                                <a href="http://symfony.com/blog/new-in-symfony-4-1-deprecated-the-bundle-notation">New in Symfony 4.1: Deprecated the bundle notation</a>
+                                <span class="metadata block m-b-0">February 23, 2018</span>
+                            </li>
+                                                    <li>
+                                <a href="http://symfony.com/blog/new-in-symfony-4-1-307-and-308-redirections">New in Symfony 4.1: 307 and 308 redirections</a>
+                                <span class="metadata block m-b-0">February 22, 2018</span>
+                            </li>
+                                                    <li>
+                                <a href="http://symfony.com/blog/new-in-symfony-4-1-validator-improvements">New in Symfony 4.1: Validator improvements</a>
+                                <span class="metadata block m-b-0">February 19, 2018</span>
+                            </li>
+                                            </ul>
+
+                    <p><a class="read-more" href="http://symfony.com/blog/">Visit The Symfony Blog</a></p>
+                </div>
+
+                <div class="col-sm-4 m-b-30">
+                    <h4 class="text-accent">Upcoming official conferences</h4>
+                    <ul class="list--unstyled list--border">
+                                                    <li>
+                                                                    <a href="https://paris2018.live.symfony.com/">SymfonyLive Paris 2018</a>
+                                
+                                <span class="metadata block m-b-0">Paris (France) - March 29-30, 2018</span>
+                            </li>
+                                                    <li>
+                                                                    <a href="http://phantasialand2018.live.symfony.com/">SymfonyLive Cologne 2018</a>
+                                
+                                <span class="metadata block m-b-0">Cologne (Germany) - May 2-4, 2018</span>
+                            </li>
+                                                    <li>
+                                                                    SymfonyCon Lisbon 2018
+                                
+                                <span class="metadata block m-b-0">Lisbon (Portugal) - Coming in 4Q 2018</span>
+                            </li>
+                                                    <li>
+                                                                    SymfonyLive USA 2018
+                                
+                                <span class="metadata block m-b-0">To be announced (United States) - 3Q 2018</span>
+                            </li>
+                                            </ul>
+
+                                            <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Event","name":"SymfonyLive Paris 2018","image":"\/images\/v5\/conferences\/sflive-paris.png","location":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Paris","addressCountry":"FR"}},"startDate":"2018-03-29T00:00:00+00:00","endDate":"2018-03-30T00:00:00+00:00","offers":{"@type":"Offer","url":"https:\/\/paris2018.live.symfony.com\/registration\/","availability":"https:\/\/schema.org\/InStock"}}</script>
+                                            <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Event","name":"SymfonyLive Cologne 2018","image":"\/images\/v5\/conferences\/sflive-cologne.png","location":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Cologne","addressCountry":"DE"}},"startDate":"2018-05-02T00:00:00+00:00","endDate":"2018-05-04T00:00:00+00:00","offers":{"@type":"Offer","url":"http:\/\/phantasialand2018.live.symfony.com\/tickets","availability":"https:\/\/schema.org\/InStock"}}</script>
+                                            <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Event","name":"SymfonyCon Lisbon 2018","image":"\/images\/v5\/conferences\/sfcon-lisbon.png","location":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Lisbon","addressCountry":"PT"}}}</script>
+                                            <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Event","name":"SymfonyLive USA 2018","image":"\/images\/v5\/conferences\/sflive-usa.png","location":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"To be announced","addressCountry":"US"}}}</script>
+                                    </div>
+
+                <div class="col-sm-4 m-b-30">
+                    <h4 class="text-accent">Upcoming training sessions</h4>
+                    <ul class="list--unstyled list--border">
+            <li>
+            <a href="https://training.sensiolabs.com/en/courses?q=SF3C4&amp;from=03/06/2018&amp;to=03/28/2018">Web Development with Symfony 3</a>
+            <span class="metadata block m-b-0">Online Europe - March 6, 2018</span>
+        </li>
+            <li>
+            <a href="https://training.sensiolabs.com/en/courses?q=SF4C4&amp;from=03/06/2018&amp;to=03/28/2018">Web Development with Symfony 4</a>
+            <span class="metadata block m-b-0">Online Europe - March 6, 2018</span>
+        </li>
+            <li>
+            <a href="https://training.sensiolabs.com/en/courses?q=SF4C1&amp;from=03/12/2018&amp;to=03/13/2018">Getting Started with Symfony 4</a>
+            <span class="metadata block m-b-0">Cologne - March 12, 2018</span>
+        </li>
+    </ul>
+
+    <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Event","name":"Web Development with Symfony 3","startDate":"2018-03-06T00:00:00+00:00","endDate":"2018-03-28T00:00:00+00:00","location":{"@type":"Place","name":"SensioLabs Offices","address":{"@type":"PostalAddress","addressLocality":"Online Europe","addressCountry":"Worldwide"}},"offers":{"@type":"Offer","url":"https:\/\/training.sensiolabs.com\/en\/courses?q=SF3C4&from=03\/06\/2018&to=03\/28\/2018","availability":"https:\/\/schema.org\/InStock"}}</script>
+    <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Event","name":"Web Development with Symfony 4","startDate":"2018-03-06T00:00:00+00:00","endDate":"2018-03-28T00:00:00+00:00","location":{"@type":"Place","name":"SensioLabs Offices","address":{"@type":"PostalAddress","addressLocality":"Online Europe","addressCountry":"Worldwide"}},"offers":{"@type":"Offer","url":"https:\/\/training.sensiolabs.com\/en\/courses?q=SF4C4&from=03\/06\/2018&to=03\/28\/2018","availability":"https:\/\/schema.org\/InStock"}}</script>
+    <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Event","name":"Getting Started with Symfony 4","startDate":"2018-03-12T00:00:00+00:00","endDate":"2018-03-13T00:00:00+00:00","location":{"@type":"Place","name":"SensioLabs Offices","address":{"@type":"PostalAddress","addressLocality":"Cologne","addressCountry":"Germany"}},"offers":{"@type":"Offer","url":"https:\/\/training.sensiolabs.com\/en\/courses?q=SF4C1&from=03\/12\/2018&to=03\/13\/2018","availability":"https:\/\/schema.org\/InStock"}}</script>
+
+
+                    <p class="m-b-5">
+                        <a class="read-more" href="https://training.sensiolabs.com/">View all sessions</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <p class="m-t-0 m-b-30 text-small">
+                <b>Symfony</b>™ is a trademark of Fabien Potencier. <a href="http://symfony.com/trademark">All rights reserved</a>.
+            </p>
+
+            <ul class="sitemap ">
+    <li>
+        <h6><a href="http://symfony.com/what-is-symfony">What is Symfony?</a></h6>
+        <ul class="list_menu_footer list-unstyled">
+            
+    <li>
+        <a href="http://symfony.com/at-a-glance">Symfony at a Glance</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/components">Symfony Components</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/projects">Projects using Symfony</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/blog/category/case-studies">Case Studies</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/roadmap">Symfony Roadmap</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/doc/current/contributing/code/security.html">Security Policy</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/logo">Logo &amp; Screenshots</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/license">Trademark &amp; Licenses</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/legacy">symfony1 Legacy</a>
+    </li>
+
+        </ul>
+    </li>
+
+    <li>
+        <h6><a href="http://symfony.com/doc/current/index.html">Learn Symfony</a></h6>
+        <ul class="list_menu_footer list-unstyled">
+                
+    
+
+
+    <li class="">
+        <a href="http://symfony.com/doc/current/setup.html">Getting Started</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/doc/current/components/index.html">Components</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/doc/current/best_practices/index.html">Best Practices</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/doc/bundles/">Bundles</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/doc/current/reference/index.html">Reference</a>
+    </li>
+    <li class="">
+        <a href="https://training.sensiolabs.com/en/courses?q=symfony">Training</a>
+    </li>
+    <li class="">
+        <a href="https://certification.symfony.com/">Certification</a>
+    </li>
+
+        </ul>
+    </li>
+
+    <li>
+        <h6><a href="http://symfony.com/community">Community</a></h6>
+        <ul class="list_menu_footer list-unstyled">
+            
+    <li>
+        <a href="https://connect.sensiolabs.com/">SensioLabs Connect</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/support">Support</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/doc/current/contributing/index.html">How to be Involved</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/stats/code">Code Stats</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/stats/downloads">Downloads Stats</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/contributors">Contributors</a>
+    </li>
+
+        </ul>
+    </li>
+
+    <li>
+        <h6><a href="http://symfony.com/blog/">Blog</a></h6>
+        <ul class="list_menu_footer list-unstyled">
+            
+    <li class="">
+        <a href="http://symfony.com/blog/category/a-week-of-symfony">A week of symfony</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/blog/category/case-studies">Case studies</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/blog/category/community">Community</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/blog/category/documentation">Documentation</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/blog/category/living-on-the-edge">Living on the edge</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/blog/category/meet-the-bundle">Meet the Bundle</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/blog/category/releases">Releases</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/blog/category/security-advisories">Security Advisories</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/blog/category/symfony-cmf">Symfony CMF</a>
+    </li>
+
+<li><a href="http://symfony.com/events/"><em>Community Events</em></a></li>
+
+        </ul>
+    </li>
+
+    <li>
+        <h6><a href="https://sensiolabs.com/">Services</a></h6>
+        <ul class="list_menu_footer list-unstyled">
+            <li><a href="https://sensiolabs.com/">Our services</a></li>
+            <li><a href="https://training.sensiolabs.com/en">Train developers</a></li>
+            <li><a href="https://insight.sensiolabs.com/">Manage your project quality</a></li>
+            <li><a href="https://blackfire.io/">Improve your project performance</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <h6><a href="http://symfony.com/about">About</a></h6>
+        <ul class="list_menu_footer list-unstyled">
+            
+    <li>
+        <a href="https://sensiolabs.com/en/join_us/join_us.html">SensioLabs</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/contributors">Contributors</a>
+    </li>
+    <li>
+        <a href="https://sensiolabs.com/en/join_us/join_us.html">Careers</a>
+    </li>
+    <li>
+        <a href="http://symfony.com/support">Support</a>
+    </li>
+
+        </ul>
+    </li>
+</ul>
+
+
+            <div class="icon__group">
+                <h6 class="m-b-15">Follow Symfony</h6>
+                <a href="https://github.com/symfony" title="Symfony on GitHub">
+                    <i class="icon"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0a8 8 0 0 0-8 8 8 8 0 0 0 5.47 7.59c.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.09-.202-.36-1.015.07-2.117 0 0 .67-.215 2.2.82a7.67 7.67 0 0 1 2-.27 7.67 7.67 0 0 1 2 .27c1.52-1.035 2.19-.82 2.19-.82.43 1.102.16 1.915.08 2.117a3.1 3.1 0 0 1 .82 2.147c0 3.073-1.87 3.75-3.65 3.947.28.24.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.14.46.55.38A7.972 7.972 0 0 0 16 8a8 8 0 0 0-8-8"></path></svg></i>
+                </a>
+                <a href="https://stackoverflow.com/questions/tagged/symfony" title="Symfony on StackOverflow">
+                    <i class="icon"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.658 14.577v-4.27h1.423V16H1.23v-5.693h1.42v4.27h10.006zm-8.583-1.423h7.16V11.73h-7.16v1.424zm.173-3.235l6.987 1.46.3-1.38L4.55 8.54l-.302 1.38zm.906-3.37l6.47 3.02.602-1.3-6.47-3.02-.602 1.29zm1.81-3.19l5.478 4.57.906-1.08L7.87 2.28l-.9 1.078zM10.502 0L9.338.863l4.27 5.735 1.164-.862L10.5 0z"></path></svg></i>
+                </a>
+                <a href="http://symfony.com/slack-invite" title="Symfony on Slack">
+                    <i class="icon"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><g fill-rule="nonzero"><path d="M6.586 7.33l.69 2.057 2.137-.716-.69-2.05-2.137.72z"></path><path d="M12.55 9.37l-1.037.347.36 1.073a.831.831 0 0 1-.814 1.092.843.843 0 0 1-.77-.566l-.36-1.072-2.14.716.36 1.072a.833.833 0 0 1-.82 1.093.843.843 0 0 1-.77-.566l-.36-1.08-1.04.35a.846.846 0 0 1-1.06-.53c-.15-.44.09-.91.52-1.05l1.04-.35L5 7.84l-1.034.35a.829.829 0 0 1-1.045-.522.834.834 0 0 1 .53-1.05l1.04-.346-.36-1.07a.832.832 0 0 1 .53-1.05c.44-.147.91.09 1.05.522l.36 1.072L8.2 5.03l-.36-1.07c-.14-.43.09-.9.526-1.05a.833.833 0 0 1 1.05.528l.36 1.08 1.037-.34a.831.831 0 0 1 1.05.52.83.83 0 0 1-.523 1.05l-1.038.35.69 2.057 1.034-.344a.833.833 0 0 1 1.05.53c.146.44-.09.91-.52 1.05zm2.78-3.57C13.68.304 11.298-.98 5.8.67.304 2.32-.98 4.7.67 10.2c1.65 5.497 4.03 6.78 9.53 5.13 5.497-1.65 6.78-4.03 5.13-9.53z"></path></g></svg></i>
+                </a>
+                <a href="https://twitter.com/symfony" title="Symfony on Twitter">
+                    <i class="icon"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038a6.62 6.62 0 0 1-1.885.517 3.299 3.299 0 0 0 1.443-1.816c-.634.37-1.337.64-2.085.79a3.282 3.282 0 0 0-5.593 2.99 9.307 9.307 0 0 1-6.766-3.42A3.222 3.222 0 0 0 .67 3.75c0 1.14.58 2.143 1.46 2.732a3.278 3.278 0 0 1-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22a3.336 3.336 0 0 1-1.475.056 3.29 3.29 0 0 0 3.07 2.28 6.578 6.578 0 0 1-4.85 1.359 9.332 9.332 0 0 0 5.04 1.474c6.04 0 9.34-5 9.34-9.33 0-.14 0-.28-.01-.42a6.63 6.63 0 0 0 1.64-1.7z" fill-rule="nonzero"></path></svg></i>
+                </a>
+                <a href="https://www.facebook.com/SymfonyFramework" title="Symfony on Facebook">
+                    <i class="icon"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M15.117 0H.883A.883.883 0 0 0 0 .883v14.234c0 .488.395.883.883.883h7.663V9.804H6.46V7.39h2.086V5.607c0-2.066 1.262-3.19 3.106-3.19.883 0 1.642.064 1.863.094v2.16h-1.28c-1 0-1.195.48-1.195 1.18v1.54h2.39l-.31 2.42h-2.08V16h4.077a.883.883 0 0 0 .883-.883V.883A.883.883 0 0 0 15.117 0" fill-rule="nonzero"></path></svg></i>
+                </a>
+                <a href="https://www.youtube.com/user/SensioLabs" title="Symfony on YouTube">
+                    <i class="icon"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M0 7.345c0-1.294.16-2.59.16-2.59s.156-1.1.636-1.587c.608-.637 1.408-.617 1.764-.684C3.84 2.36 8 2.324 8 2.324s3.362.004 5.6.166c.314.038.996.04 1.604.678.48.486.636 1.588.636 1.588S16 6.05 16 7.346v1.258c0 1.296-.16 2.59-.16 2.59s-.156 1.102-.636 1.588c-.608.638-1.29.64-1.604.678-2.238.162-5.6.166-5.6.166s-4.16-.037-5.44-.16c-.356-.067-1.156-.047-1.764-.684-.48-.487-.636-1.587-.636-1.587S0 9.9 0 8.605v-1.26zm6.348 2.73V5.58l4.323 2.255-4.32 2.24z"></path></svg></i>
+                </a>
+            </div>
+
+            <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Organization","name":"Symfony","url":"https:\/\/symfony.com","sameAs":["https:\/\/github.com\/symfony","https:\/\/stackoverflow.com\/questions\/tagged\/symfony","https:\/\/twitter.com\/symfony","https:\/\/www.facebook.com\/SymfonyFramework","https:\/\/www.youtube.com\/user\/SensioLabs"]}</script>
+        </div>
+    </section>
+</footer>
+
+                    </div>
+        
+        <script type="text/javascript">
+            // load SensioLabsConnect bar
+            window.addEventListener('load', function () {
+                var js, fjs = document.getElementsByTagName('script')[0], load = function(url, id) {
+                    if (document.getElementById(id)) { return; }
+                    js = document.createElement('script'); js.src = url; js.id = id;
+                    fjs.parentNode.insertBefore(js, fjs);
+                };
+                load('https://connect.sensiolabs.com/sln.js?customize_url=http://symfony.com/sln_customiser.js', 'sln_bar');
+
+                var s = document.createElement('link');
+                s.rel = 'stylesheet';
+                s.href = 'https://connect.sensiolabs.com/css/sln.css';
+                var x = document.getElementsByTagName('title')[0];
+                x.parentNode.insertBefore(s, x);
+            });
+        </script>
+        
+            <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b10765e88c","applicationID":"3535762","transactionName":"ZVVSYEdRWkACVEJRC1wfcVdBWVtdTHZGSDhxX15AR19YXwZFanoIXVdzW1tERlwPW1NKXghdVVpAcVdHClhY","queueTime":0,"applicationTime":116,"atts":"SRJRFg9LSU4=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<div id="criteo-tags-div" style="display: none;"><iframe style="display: none;" src="fuserBundle_fichiers/dis.html" width="0" height="0"></iframe></div></body></html>

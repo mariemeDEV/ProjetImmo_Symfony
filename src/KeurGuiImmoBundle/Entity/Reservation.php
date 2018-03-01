@@ -7,24 +7,24 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Contrat
  *
- * @ORM\Table(name="contrat")
- * @ORM\Entity(repositoryClass="KeurGuiImmoBundle\Repository\ContratRepository")
+ * @ORM\Table(name="reservation")
+ * @ORM\Entity(repositoryClass="KeurGuiImmoBundle\Repository\ReservationRepository")
  */
 class Reservation
 {
     /**
      * @var int
      *
-     * @ORM\Column(name="id", type="integer")
+     * @ORM\Column(name="idReservation", type="integer")
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
     private $id;
 
     /**
-     * @var \DateTime
+     * @var \Date
      *
-     * @ORM\Column(name="dateReservation", type="string")
+     * @ORM\Column(name="dateReservation", type="date")
      */
     private $dateReservation;
 
@@ -34,12 +34,6 @@ class Reservation
      * @ORM\Column(name="etatReservation", type="string", length=20)
      */
     private $etat;
-
-    /**
-     * @ORM\OneToOne(targetEntity="KeurGuiImmoBundle\Entity\TypeBien")
-     * @ORM\JoinColumn(name="idTypeBien", referencedColumnName="id")
-     */
-    private $typeBien;
 
     /**
      * @ORM\ManyToOne(targetEntity="KeurGuiImmoBundle\Entity\Bien")
@@ -64,12 +58,13 @@ class Reservation
         return $this->id;
     }
 
+
     /**
      * Set dateReservation
      *
-     * @param \DateTime $dateReservation
+     * @param \Date $dateReservation
      *
-     * @return Contrat
+     * @return Reservation
      */
     public function setDateReservation($dateReservation)
     {
@@ -81,7 +76,7 @@ class Reservation
     /**
      * Get dateReservation
      *
-     * @return \DateTime
+     * @return \Date
      */
     public function getDateReservation()
     {
@@ -183,4 +178,28 @@ class Reservation
     {
         return $this->client;
     }
+
+    /**
+     * Set caution
+     *
+     * @param integer $caution
+     *
+     * @return Reservation
+
+    public function setCaution($caution)
+    {
+        $this->caution = $caution;
+
+        return $this;
+    }
+
+    /**
+     * Get caution
+     *
+     * @return integer
+
+    public function getCaution()
+    {
+        return $this->caution;
+    }*/
 }

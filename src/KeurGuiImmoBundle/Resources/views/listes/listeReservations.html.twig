@@ -1,31 +1,36 @@
 {% extends '::baseListes.html.twig' %}
-
     {% block nav %}
         <a href="#" style="font-size:10px">Bien</a>
         <a href="#" style="font-size:10px" >Localité</a>
         <a href="#"style="font-size:10px">Type</a>
     {% endblock %}
 
-    {% block headContent %}
-
-        <tr style="background-color: black;color:white">
-            <th>Nom Bien</th>
-            <th>Nom Client</th>
-            <th>Date Reservation</th>
-            <th>etat Reservation</th>
-        </tr>
-    {% endblock %}
-
-    {% block bodyContent %}
-    {% for $reservationObject in $listeReserv %}
-        <tr>
-            <td>{{ $reservationObject.bien.nomBien }}</td>
-            <td>{{ $reservationObject.client.nomClient }}</td>
-            <td>{{ $reservationObject.dateReservation }}</td>
-            <td>{{ $reservationObject.etat}}</td>
-
-
-        </tr>
+    {% block table %}
+    <table class="table table-light table-striped table-bordered">
+      <thead>
+      <tr style="background-color: black;color:white">
+          <th>Nom Bien</th>
+          <th>Localité</th>
+          <th>Type</th>
+          <th>Nom Client</th>
+          <th>Adresse</th>
+          <th>Etat Résèrvation</th>
+          <th>Opérations</th>
+      </tr>
+      </thead>
+        {% for reservationObject in listeReserv %}
+            <tr>
+                <td>{{ reservationObject.bien.nomBien }}</td>
+                <td>{{ reservationObject.bien.localite.libelleLocalite}}</td>
+                <td>{{ reservationObject.bien.typeBien.libelleTypeBien }}</td>
+                <td>{{ reservationObject.client.nomComplet }}</td>
+                <td>{{ reservationObject.client.adresse }}</td>
+                <td>{{ reservationObject.etat}}</td>
+                <td><a class="btn btn-success btn-xs" id="dets" href="{{ path('validationContrat',{'id'
+                        :reservationObject.id}) }}">Détails</a></td>
+            </tr>
         {% endfor %}
+    </table>
     {% endblock %}
+
 
