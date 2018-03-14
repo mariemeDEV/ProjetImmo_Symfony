@@ -1,0 +1,72 @@
+{% extends "::base.html.twig" %}
+
+<body>
+    {% block body %}
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <h2>FORMULAIRE D'AJOUT DE BIENS</h2>
+                </div>
+                <div class="card-body">
+                    <form action="/action_page.php">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="">Nom Bien:</label>
+                                    <input type="text" class="form-control" id="" placeholder="" name="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="">Prix location:</label>
+                                    <input type="" class="form-control" id="" placeholder="" name="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="">Localite:</label>
+                                    <input type="" class="form-control" id="" placeholder="" name="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="">Description:</label>
+                                    <textarea  class="form-control" id="" placeholder="Enter password" name=""></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="">Type:</label>
+                                    <input type="" class="form-control" id="" placeholder="" name="">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="">Images:</label>
+                                    <input type="" class="form-control" id="" placeholder="" name="" style="width:300px">
+                                    <button class="btn btn-success" style="" id="addChamp">+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-success">Ajouter</button>
+                    </form>
+                </div>
+                <div class="card-footer"></div>
+            </div>
+        </div>
+    {% endblock %}
+
+    {% block javascripts %}
+        <script text="type/javascript" src="{{ asset('js/jquery.js') }}"></script>
+        <script text="type/javascript" src="{{ asset('js/keurGuiImmo.js') }}"></script>
+    {% endblock %}
+</body>
